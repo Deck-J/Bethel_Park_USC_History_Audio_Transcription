@@ -1,0 +1,14 @@
+# Audio never enters git (see docs/AUDIO.md)
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.aif
+*.aiff
+*.ogg
+*.opus
+*.mp4
+*.mov
+# OS noise
+.DS_Store
+__pycache__/

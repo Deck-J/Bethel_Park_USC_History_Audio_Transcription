@@ -1,0 +1,67 @@
+{
+  "id": "1971-07-15-ad-white-cross-creek",
+  "title": "A.D. White — Cross Creek records and the Whiskey Rebellion",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "1971-07-15",
+  "date_source": "A copyist's slate at the head of Side A: \"recorded on July the 15th, a Thursday evening, 1971, at Hickory, Pennsylvania\". 15 July 1971 was a Thursday. Side B carries no date of its own and is dated from that slate.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "Two cassette sides, captured as ALAC 48 kHz stereo 16-bit. Side B's capture runs 1 h 35 m 22 s but only 20 m 15 s is programme; the dead tail was cropped for transcription and listening, and the untouched capture is kept as received."
+  },
+  "speakers": [
+    {"label": "WHITE", "name": "Alvin Dinsmore White", "role": "subject",
+     "note": "Of Hickory, Pennsylvania; author of the Cross Creek church history, and the lecturer in this series on 31 October 1971."},
+    {"label": "INTERVIEWER", "name": "Ann Connor and John Connor", "role": "interviewer",
+     "note": "The tape does not identify which of the two asks each question, so the label is shared rather than guessed."},
+    {"label": "NARRATOR", "name": "unidentified copyist", "role": "narrator",
+     "note": "The slate at the head of Side A only; not a voice in the room."},
+    {"label": "UNKNOWN", "name": "unidentified family voice", "role": "other",
+     "note": "One line at the close of Side B, in the room, not separable."}
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1872.043,
+      "master": {
+        "filename": "Side A.m4a",
+        "sha256": "e2169af30fba84291e0a1b997b2d7aef76a14b16d1083c3668ce5491511be28f",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 83169298,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Alvin Dinsmore White - Cross Creek Records and the Whiskey Rebellion (15 July 1971)/Source original/Side A.m4a"
+      }
+    },
+    {
+      "id": "B",
+      "transcript": "transcript-b.md",
+      "srt": "transcript-b.srt",
+      "notes": "notes-b.md",
+      "duration_s": 1215.061,
+      "capture_duration_s": 5721.685,
+      "master": {
+        "filename": "Side B.m4a",
+        "sha256": "fe0363c0cf0cc644eec1bc8097c5ba04bca0856abcd38d88181ac8f150e92698",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 56300439,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Alvin Dinsmore White - Cross Creek Records and the Whiskey Rebellion (15 July 1971)/Source original/Side B.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release; the recordings were made for and of the church's own historical collection and are distributed for research and reuse."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 6525,
+    "corrections": 24,
+    "review_state": "corrected"
+  }
+}
