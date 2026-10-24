@@ -32,8 +32,14 @@ left as heard.
 **The J.D. Patterson typescript is more than twice the interview.** The printed typescript runs 18,639
 words; the two tape sides carry 8,698 spoken words (4,491 + 4,207). The typescript says it is the same
 interview. Either it includes material from a part of the conversation that was not recorded, or it was
-edited up — the difference is unexplained, and the typescript also refers to an **Appendix A** that is
-not among the 64 scanned pages. The scan is probably incomplete.
+edited up — the difference is unexplained.
+
+**Appendix A exists after all.** An earlier note here said the typescript referred to an Appendix A that
+was missing from the scan. That was wrong: the appendices are outside the 64 manuscript pages, and
+**Appendix A (editorial notes) survives only in the facsimile PDF** — the typeset PDF and the plain
+transcript omit it. It is now filed as
+`recordings/1979-04-20-jd-patterson-documents/appendix-a-editorial-notes.md`. Appendix B, an index of
+people, places and businesses, survives in both PDFs and is in the print-edition Markdown.
 
 **One tape side announces ownership.** The Patterson Side B cassette states that the recording belongs
 to the Upper St. Clair Historical Society and is for non-profit use. The three Patterson items and

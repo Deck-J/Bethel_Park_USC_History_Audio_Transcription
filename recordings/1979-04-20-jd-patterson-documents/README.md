@@ -145,7 +145,9 @@ material is honoured without argument.
 
 | file | what it is |
 |---|---|
-| `transcript-booklet.md` | The 64-page typescript, page by page. **Start here.** |
+| `transcript-booklet.md` | The 64-page typescript, page by page, in manuscript order. **Start here.** |
+| `transcript-booklet-print-edition.md` | The **typeset** edition converted to Markdown: same words, its own front matter and the appendix B index, with `## Page N` headings carrying the manuscript's numbering (pages 2 and 64 are blank sheets and are omitted) |
+| `appendix-a-editorial-notes.md` | **Appendix A**, recovered from the facsimile PDF (the typeset one omits it): the typescript's closed-*e*-read-as-*o* habit and how each name was restored, the flags used in the text, and what is still open |
 | `transcription-seed.md` | The vocabulary/prompt seed (revision 2) built from it |
 | `transcription-seed.json` | The same seed as structured lists, with the ASR prompt |
 | `whisper-initial-prompt.txt` | The prompt exactly as passed to the engine |
@@ -155,6 +157,20 @@ material is honoured without argument.
 
 There is no audio here and none is missing: this item is paper. The sound recordings of the same interview
 are `1979-04-20-jd-patterson-side-a` and `1979-04-20-jd-patterson-side-b`.
+
+**Three renderings of one text, and which to cite.** The transcript itself (`transcript-booklet.md`) is the
+page-by-page reading of the scan and remains the authority for wording. The two PDFs are *renditions* of
+it: a **facsimile** (`… - transcript (facsimile).pdf`) laid out like the typed pages, and a **typeset**
+(`… - transcript (typeset).pdf`) reflowed for reading. Their text agrees with the transcript at better
+than 97 %, and where they differ it is layout and front matter, not words — so the repository carries
+them as Markdown, not as duplicated bodies:
+
+- `transcript-booklet-print-edition.md` = the typeset edition, complete (62 manuscript pages plus its
+  appendix B index of people, places and businesses)
+- `appendix-a-editorial-notes.md` = appendix A, which only the facsimile carries
+
+The facsimile's body is therefore not duplicated as a third file; if you need its exact page layout,
+the PDF is in the archive folder and is recorded in `docs/AUDIO.md`.
 
 ## 8. Citing it
 
