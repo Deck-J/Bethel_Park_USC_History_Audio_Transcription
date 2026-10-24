@@ -93,6 +93,12 @@ def check_recording(d):
         fail(rec, f"metadata id {meta['id']!r} does not equal the folder name")
 
     # text files exist, transcripts are not empty, no audio anywhere
+    rdme = d / "README.md"
+    if not rdme.is_file():
+        fail(rec, "no README.md in the recording folder (it carries what metadata cannot)")
+    elif len(rdme.read_text(encoding="utf-8").split()) < 200:
+        fail(rec, f"README.md is only {len(rdme.read_text().split())} words - too thin to be the record of the item")
+
     for side in meta.get("sides", []):
         for key in ("transcript", "srt", "notes"):
             rel = side.get(key)
