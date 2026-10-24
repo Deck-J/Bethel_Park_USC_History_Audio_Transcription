@@ -19,6 +19,8 @@ import re
 import sys
 from collections import defaultdict
 
+import indexlib                    # shared reading side: same normalisation as the places index
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "NAMES.md"
 REPO_URL = "https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main"
@@ -98,17 +100,9 @@ def iter_transcripts():
             yield folder, meta, f
 
 
-def line_hits(text):
-    """Yield (line_no, candidates) for one transcript file."""
-    for i, raw in enumerate(text.splitlines(), 1):
-        line = raw.strip().lstrip("*> ").strip()
-        line = re.sub(r"\*\*|__", "", line)                # bold speaker labels
-        line = LABEL_RE.sub("", line)
-        line = re.sub(r"\[[^\]]*\]", " ", line)           # drop editors' brackets
-        if not line or line.startswith(("#", "|", "---")):
-            continue
-        if ".md" in line or "http" in line or "README" in line:   # filenames are not people
-            continue
+def line_hits(path):
+    """Yield (line_no, candidates) for one transcript file, over indexlib's normalised lines."""
+    for i, line in indexlib.iter_lines(path):
         found = []
         for m in NAME_RE.finditer(line):
             first, mid, second = m.group(1), m.group(2) or "", m.group(3)
@@ -127,12 +121,11 @@ def line_hits(text):
 def main():
     mentions = defaultdict(list)          # name -> [(folder, file, line)]
     speakers = {}
-    for folder, meta, f in iter_transcripts():
+    for folder, meta, f in indexlib.iter_transcripts():
         for name in (s.get("name") for s in meta.get("speakers", [])):
             if name and not name.lower().startswith("unidentified"):
                 speakers.setdefault(name, []).append((folder.name, None, None))
-        text = f.read_text(encoding="utf-8")
-        for line_no, name in line_hits(text):
+        for line_no, name in line_hits(f):
             mentions[name].append((folder.name, f.name, line_no))
 
     # keep: >=2 mentions, or a stated speaker; drop possessives/plurals duplicating a base name

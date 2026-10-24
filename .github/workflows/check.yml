@@ -19,4 +19,5 @@ jobs:
         run: |
           python3 bin/gen_collection.py
           python3 bin/gen_names.py
-          git diff --exit-code docs/COLLECTION.md docs/NAMES.md
+          python3 bin/gen_places.py
+          git diff --exit-code docs/COLLECTION.md docs/NAMES.md docs/PLACES.md
