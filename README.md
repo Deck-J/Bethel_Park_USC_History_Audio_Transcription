@@ -27,6 +27,7 @@ bin/gen_checksums.py           writes checksums.sha256 for a recording folder
 docker/                        the pinned environment that produced the transcripts, and how to run it
 bin/gen_collection.py          regenerates the index from the recordings themselves
 docs/COLLECTION.md             the index: every item, its date, length, words and speakers
+docs/NOTES-ON-SOURCES.md       where the tapes contradict each other, and defects in the source files
 docs/AUDIO.md                  where the masters live, and why they are not here
 docs/RIGHTS.md                 the rights statement, and what a future deposit must record
 ```
@@ -118,6 +119,10 @@ that is:
 
 - **→ [`docs/COLLECTION.md`](docs/COLLECTION.md)** — all items, with date, length, word count and
   speaker(s)
+
+Where two records disagree with each other, or a document disagrees with its tape, that is written down
+in **[`docs/NOTES-ON-SOURCES.md`](docs/NOTES-ON-SOURCES.md)** rather than smoothed away — an oral
+history is evidence about what someone remembered, and the disagreement is part of the evidence.
 
 Fourteen items so far: interviews and lectures recorded between 1971 and 1983 with the church's own
 historians and oldest families, plus one papers-only item (the J.D. Patterson typescript).

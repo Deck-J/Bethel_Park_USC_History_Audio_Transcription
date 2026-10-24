@@ -22,7 +22,7 @@ years ago.
 | | |
 |---|---|
 | **Speaker** | One unidentified man, a former miner and local geologist; the tape never states his name |
-| **Room** | More than one listener: "this lady has already told you more of the history than I knew about it" (A, 15:44), **Grace** is asked whether she can see (B, 10:52), **Jim** is asked to hold the fossil up to the light (B, 7:0x). Two audience questions are labelled `AUDIENCE` |
+| **Room** | More than one listener: "this lady has already told you more of the history than I knew about it" (A, 15:44), **Grace** is asked whether she can see (B, 10:52), **Jim** is asked to hold the fossil up to the light (B, 7:53). Two audience questions are labelled `AUDIENCE` |
 | **Recorded** | **Date unknown** — see §1 |
 | **Length** | Side A 21 m 25 s (1,284.78 s) + Side B 30 m 59 s (1,859.16 s) = **52 m 24 s** |
 | **Words** | 6,661 (2,608 + 4,053) in 91 labelled turns |
@@ -41,7 +41,7 @@ probably after 1990. The archive README's row for the geology lecture records **
 
 What the tape supports is a **bound, not a date**:
 
-- the mines around him are "all long since closed down", and he remembers several of them running;
+- the mines around him are "long since closed down", and he remembers several of them running;
 - "all the ones that were there when I worked in **1933** before World War II" — memory, so the talk is
   decades later;
 - a Consol research laboratory at Library, and the Bureau of Mines building as a landmark in the
@@ -63,7 +63,7 @@ reason alone.
 | md5 (capture record) | `c53f4c245364d68736414c3e1c2c64b5` | `d79e72d9daf3e0bb70a9ec917e2ba948` |
 | Mean level | **−21.3 dBFS** (measured) | **−21.7 dBFS** (measured) |
 | Peak | **−1.2 dBFS** (measured) | **−1.9 dBFS** (measured) |
-| Last speech | 1,200 s; last 84.8 s at RMS −83.0 dBFS, peak −49.6 dBFS | throughout; the talk runs to the end of the file |
+| Last speech | 1,200 s; last 84.8 s at RMS −83.0 dBFS, peak −49.6 dBFS | last cue 30:30.8; the file runs on 28 s beyond it |
 
 Hashes, durations, channel counts and levels were **recomputed from the files** for this record
 (`hashlib.sha256`, `ffprobe`, `ffmpeg volumedetect` / `astats`); the md5s are the figures the
