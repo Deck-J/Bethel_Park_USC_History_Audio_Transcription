@@ -14,3 +14,9 @@ jobs:
           python-version: "3.12"
       - name: recording gate
         run: python3 bin/check.py
+
+      - name: generated docs are current
+        run: |
+          python3 bin/gen_collection.py
+          python3 bin/gen_names.py
+          git diff --exit-code docs/COLLECTION.md docs/NAMES.md

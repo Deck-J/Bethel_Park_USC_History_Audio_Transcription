@@ -25,8 +25,10 @@ schema/recording.schema.json   the shape metadata.json must take
 bin/check.py                   the gate (schema, files, checksums, no audio)
 bin/gen_checksums.py           writes checksums.sha256 for a recording folder
 docker/                        the pinned environment that produced the transcripts, and how to run it
-bin/gen_collection.py          regenerates the index from the recordings themselves
+bin/gen_collection.py          regenerates the collection index from the recordings themselves
+bin/gen_names.py               regenerates the names finding aid from the transcripts
 docs/COLLECTION.md             the index: every item, its date, length, words and speakers
+docs/NAMES.md                  every person named, with a link to each place they are mentioned
 docs/NOTES-ON-SOURCES.md       where the tapes contradict each other, and defects in the source files
 docs/AUDIO.md                  where the masters live, and why they are not here
 docs/RIGHTS.md                 the rights statement, and what a future deposit must record
@@ -119,6 +121,9 @@ that is:
 
 - **→ [`docs/COLLECTION.md`](docs/COLLECTION.md)** — all items, with date, length, word count and
   speaker(s)
+
+Looking for a person rather than a recording? **[`docs/NAMES.md`](docs/NAMES.md)** indexes every name
+in the transcripts with links to the lines where it appears.
 
 Where two records disagree with each other, or a document disagrees with its tape, that is written down
 in **[`docs/NOTES-ON-SOURCES.md`](docs/NOTES-ON-SOURCES.md)** rather than smoothed away — an oral
