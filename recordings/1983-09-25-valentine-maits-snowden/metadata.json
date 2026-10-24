@@ -1,0 +1,74 @@
+{
+  "id": "1983-09-25-valentine-maits-snowden",
+  "title": "Ruth Valentine, Miller Maits and Jean Snowden — remembering Bethel",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — a session with three of the oldest members, 25 September 1983",
+  "date": "1983-09-25",
+  "date_source": "Filename, not a slate. The source JSON records the date as user-supplied by John Decker, written '9-25-83' on the original capture (field recorded.source); the tape states no date of its own. One internal detail agrees: the moderator closes with 'over 200 years now of history, almost 206 or 207 years, I guess, this year', and Bethel was founded on 5 November 1776, which gives 1982 or 1983.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One session capture, ALAC 48 kHz stereo 16-bit, 1,559.979 s, 58,020,991 bytes, md5 913bdf2b51aa75586d7cd6931b03403f (recomputed here and identical to the md5 in the source JSON). No per-item digitisation date is recorded in the source JSON; 2026-10-18 is the collection's digitisation date per the archive README and folder, and the master's NAS mtime is 2026-10-19 23:22 EDT. The master is the capture as received; the transcription working copy was a 2:1 channel sum with +3.78 dB of gain, and that processed copy was not kept. The last ~1 m 40 s is post-meeting chatter away from the microphone."
+  },
+  "speakers": [
+    {
+      "label": "RUTH VALENTINE",
+      "name": "Ruth Valentine (née Douglas)",
+      "role": "subject",
+      "note": "Born 26 December 1913, per the cradle-roll certificate she reads aloud (enrolled 28 March 1914). 'Ruth' is spoken by the moderator at the hand-over; 'Valentine' is from the filename only and is a married name."
+    },
+    {
+      "label": "MILLER MAITS",
+      "name": "Miller Maits",
+      "role": "subject",
+      "note": "A descendant of the Oliver Miller family, named twice on the tape — by the moderator ('The next person is Miller Maits') and by Ruth. The only one of the three surnames the tape says aloud."
+    },
+    {
+      "label": "JEAN SNOWDEN",
+      "name": "Jean Snowden",
+      "role": "subject",
+      "note": "'Jean' is spoken by the moderator at the hand-over ('Jean, why don't you take over'); 'Snowden' is from the filename only and is not on the tape. The ASR renders the name both 'Jean' and 'Gene'."
+    },
+    {
+      "label": "HOST",
+      "name": "unidentified moderator",
+      "role": "other",
+      "note": "Unnamed man who introduces each speaker, reads the church's history and speaks for about a third of the tape. Never names himself; not one of the three participants (median f0 150 Hz against 206, 113 and 208 Hz)."
+    },
+    {
+      "label": "UNIDENTIFIED",
+      "name": "unidentified voices",
+      "role": "other",
+      "note": "After 24:20 only: the meeting breaks up and the off-microphone chatter cannot be attributed. Includes the 'quarter to 11' exchange."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1559.978667,
+      "master": {
+        "filename": "Valentine, Maits and Snowden (25 September 1983).m4a",
+        "sha256": "cacd4b6a06676be4ebc5d8c23930a478403e35d386574f5c274a22ea532180c7",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 58020991,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Valentine, Maits and Snowden (25 September 1983)/Valentine, Maits and Snowden (25 September 1983).m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder; see README §6."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 3073,
+    "corrections": 33,
+    "review_state": "corrected"
+  }
+}

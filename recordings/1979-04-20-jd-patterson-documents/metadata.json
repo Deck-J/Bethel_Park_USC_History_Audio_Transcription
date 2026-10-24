@@ -1,0 +1,45 @@
+{
+  "id": "1979-04-20-jd-patterson-documents",
+  "title": "J.D. Patterson — the 64-page typed transcript of the 1979 interview",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — papers, no audio",
+  "date": "1979-04-20",
+  "date_source": "Stated on the typescript itself: page 3 (printed page 1) reads 'Oral interview with Mr. J. D. Patterson, April 20, 1979 / Interviewed by June Ellington. Typist, Mrs. T. R. Stump', and the running head on later pages repeats 'April 20, 1979'. This is the document's own date, and it is the source that fixes the year for the two cassette sides, which give the day and month only. The folder id keeps the unknown- prefix this item was queued under.",
+  "kind": "documents",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-21",
+    "capture_notes": "A 64-page typescript scanned at 600 dpi bilevel on a Canon iPR V700 (scan file 20261021153321.pdf) and read page-by-page from the page images, not machine-OCR'd. No audio belongs to this item; the sound recordings of the same interview are filed as unknown-jd-patterson-side-a and -side-b."
+  },
+  "speakers": [
+    {
+      "label": "JD",
+      "name": "James Douglass Patterson",
+      "role": "subject",
+      "note": "Born 14 March 1904, son of Richard Miller Patterson and Etta Douglas, of Patterson Road, Bethel Park; the typescript's subject throughout."
+    },
+    {
+      "label": "JUNE",
+      "name": "June Ellington",
+      "role": "interviewer",
+      "note": "Named by herself on the first page of the typescript."
+    },
+    {
+      "label": "TYPIST",
+      "name": "Mrs. T. R. Stump",
+      "role": "other",
+      "note": "Typed the transcript; her own errors are preserved in the text and flagged in the transcription's Appendix A reference, which is not present in the document."
+    }
+  ],
+  "sides": [],
+  "rights": {
+    "status": "unknown",
+    "statement": "No holder's release is recorded for the typescript or for the interview it records. Digitised by John Decker for the Historical Room in 2026; docs/RIGHTS.md requires a release per item and none is on file.",
+    "basis": "Collection provenance only; not cleared until the Historical Room confirms a release."
+  },
+  "transcript": {
+    "engine": "none — a typed transcript, transcribed page-by-page from the page images by reading, not by OCR or ASR",
+    "labelled": true,
+    "word_count": 18639
+  }
+}

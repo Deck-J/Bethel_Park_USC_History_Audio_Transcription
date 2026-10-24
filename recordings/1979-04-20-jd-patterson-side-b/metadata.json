@@ -1,0 +1,75 @@
+{
+  "id": "1979-04-20-jd-patterson-side-b",
+  "title": "J.D. Patterson — the Fife family and the ground it stood on (side B)",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "1979-04-20",
+  "date_source": "Side B carries no date of its own: it opens mid-question, 'What was his first name? Was it Samuel?', continuing the conversation on Side A, and is dated from that side's opening 'April 20th'. The year is established from the typescript of the same interview (unknown-jd-patterson-documents, title page: 'Oral interview with Mr. J. D. Patterson, April 20, 1979'). The folder id keeps the unknown- prefix this item was queued under.",
+  "kind": "recording",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-19",
+    "capture_notes": "One cassette side, ALAC 48 kHz stereo 16-bit, 31:06.240. Received as 'JD Patterson Side B.m4a' in the collection root and renamed to the archive stem without touching the samples. The sound runs to 30:52 and the side ends with 'Thank you.' at 31:04.8; nothing was cropped. A second SRT in this folder, transcript-both-sides.srt, puts both sides on one clock by offsetting this side by 2156.288 s, Side A's duration."
+  },
+  "speakers": [
+    {
+      "label": "JD",
+      "name": "James Douglass Patterson",
+      "role": "subject",
+      "note": "Continues from Side A; the Fife, Hultz, Boyer and Espy families of Upper St. Clair and Bethel."
+    },
+    {
+      "label": "JUNE",
+      "name": "June Ellington",
+      "role": "interviewer",
+      "note": "Labelled only where her words are unambiguous (a question, a name-check, an aside to the room); her one-word acknowledgements stay under JD because no diarisation separates them."
+    },
+    {
+      "label": "ANNOUNCEMENT",
+      "name": "unidentified voice, tape announcement",
+      "role": "narrator",
+      "note": "The closing ownership statement: 'This is a recording of oral history to be the property of Upper St. Clair Historical Society and will only be used by non-profit' - neither speaker."
+    }
+  ],
+  "sides": [
+    {
+      "id": "B",
+      "transcript": "transcript-b.md",
+      "srt": "transcript-b.srt",
+      "notes": "notes-b.md",
+      "duration_s": 1866.24,
+      "master": {
+        "filename": "JD Patterson - Side B.m4a",
+        "sha256": "a2f38e54a226c5b468d2c14629d8386dcf3db2227a03f45edd198ab5306a230b",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 104071166,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/JD Patterson - Side B/JD Patterson - Side B.m4a"
+      }
+    },
+    {
+      "id": "B-mp3",
+      "transcript": "transcript-b.md",
+      "duration_s": 1866.232,
+      "master": {
+        "filename": "JD Patterson - Side B.mp3",
+        "sha256": "4ccad4c11ca5c235f6342e94ea09f353fb4331519df0c52a8d26ad7502aba22a",
+        "format": "MP3 48 kHz stereo 192 kbps — access copy, no cuts",
+        "size_bytes": 44790956,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/JD Patterson - Side B/JD Patterson - Side B.mp3"
+      }
+    }
+  ],
+  "rights": {
+    "status": "unknown",
+    "statement": "The tape itself states at 30:49-30:52 that it is 'to be the property of Upper St. Clair Historical Society and will only be used by non-profit'. That is an ownership claim by another institution, not a release, and Bethel's Historical Room holds no recorded permission of its own; it is published with the claim stated verbatim and flagged rather than resolved.",
+    "basis": "Statement on the tape (0:31:0x); no release on file. See docs/RIGHTS.md rule 1."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 4207,
+    "corrections": 45,
+    "review_state": "corrected"
+  }
+}

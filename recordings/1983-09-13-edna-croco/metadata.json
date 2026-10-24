@@ -1,0 +1,56 @@
+{
+  "id": "1983-09-13-edna-croco",
+  "title": "Edna Croco — remembering Edna Maits and old Bethel",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history: a research interview with Ann Connor",
+  "date": "1983-09-13",
+  "date_source": "Stated on the tape, in the first eleven seconds: \"This is Tuesday, September the 13th, 1983, and this is Ann Connor.\" (0:09, labelled ANN CONNOR). 13 September 1983 was a Tuesday, checked with date(1), so the reading is internally consistent. The source folder name carries no date at all, and nothing was inherited from a neighbour; the 2026-10-18 in the archive path is the digitisation date, not the recording date.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One continuous capture, ALAC 48 kHz stereo 16-bit, 2,059.776 s, 37,145,922 bytes, sha256 recomputed here. The source JSON records md5 4cae6a72735fa9ace86aa92f8cc16c1f. Measured on the master as received: mean -44.2 dBFS, peak -9.8 dBFS. Speech ends at 1,832.9 s (30:33); the remaining 226.9 s is silence, and the last 220 s from 1,840 s measures RMS -83.5 dBFS, peak -36.8 dBFS, i.e. no speech. A third of the file is runs of exact digital zero, the signature of a voice-actuated or squelch-gated recorder. A condensed listening copy, 'Edna Croco Interview (condensed).mp3' (1,648.11 s, mono 64 kbps, silent gaps cut), exists in the source folder; the transcripts point at the full-length master, never at that copy."
+  },
+  "speakers": [
+    {
+      "label": "EDNA",
+      "name": "Edna M. Croco",
+      "role": "subject",
+      "note": "Of Bethel Park; 83 on the day of the recording. Born 20 September 1899 and died May 1988 per a genealogy index entry, which is a SECONDARY source — the primary obituary has not been obtained. The year is corroborated from the tape: she was 'about two years old' when the third meeting house lost part of its roof, and the 1951 history dates that storm to 30 March 1902."
+    },
+    {
+      "label": "ANN CONNOR",
+      "name": "Ann Connor",
+      "role": "interviewer",
+      "note": "Names herself on the tape at 0:09. She was building the Historical Room and narrates her errand into the recorder before the interview begins. Her turns were labelled INTERVIEWER in the first build and renamed on 2026-10-20; the label change altered no spoken word."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 2059.776,
+      "master": {
+        "filename": "Edna Croco Interview.m4a",
+        "sha256": "087265af5bd3e3c958c70fae730ba6bcd2f59f9761fa882b899787e5bdf3dcc3",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 37145922,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Edna Croco Interview/Edna Croco Interview.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder, and the claim is not inferred from the age of the tape."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 2946,
+    "corrections": 27,
+    "review_state": "corrected"
+  }
+}

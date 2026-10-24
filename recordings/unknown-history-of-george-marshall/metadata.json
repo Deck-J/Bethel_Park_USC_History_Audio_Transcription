@@ -1,0 +1,56 @@
+{
+  "id": "unknown-history-of-george-marshall",
+  "title": "Ann Connor — the ministers of Bethel, and George Marshall",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — a talk in the room, date unknown",
+  "date": "unknown",
+  "date_source": "Searched and found no date: the filed transcript end to end, the .srt, the transcription JSON (date_recorded: 'UNKNOWN (not stated on the tape; c. 2001 assumed by the archive)'), the notes, and the filename. The tape states no date, names no anniversary, and refers to no datable outside event; the archive README's row for this item also records UNKNOWN. The archive's working assumption is c. 2001 — John Decker's, on the grounds that it is the same era and the same speaker as the Ann Connor Sides A and B cassettes, which date themselves by the 225th anniversary (1776 + 225). That is an assumption and is recorded as one, never as evidence. The 14 May 1851 letter read on the tape is period content, not a date for the recording.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One continuous room recording, ALAC 48 kHz stereo 16-bit, 1,904.213 s (31 m 44 s), 75,371,783 bytes, sha256 recomputed here; the source JSON records md5 198d5633a0dc95e812faaf8488d83fe4. Measured on the master as received: mean -31.2 dBFS, peak -3.4 dBFS, even across the file. Speech runs 0:09.6 to 30:50.3 per the timed cues; the final 49 s from 1,855 s measures RMS -66.2 dBFS, peak -37.2 dBFS, so it is room tone. (The source notes print 31:50.3, which lies beyond the end of the 1,904.2 s file and is a typo; the .srt's last cue is 30:50.110.) A mono 64 kbps transfer copy, 1,852.0 s, sits beside the master; it is the master with the silent tail cut and nothing inside the talk touched."
+  },
+  "speakers": [
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "subject",
+      "note": "Per the archive: the tape never states her name. She is the same speaker as the Ann Connor Sides A and B cassettes in this collection. The label is ANN because the tape gives no fuller name."
+    },
+    {
+      "label": "AUDIENCE",
+      "name": "unidentified audience member",
+      "role": "other",
+      "note": "One turn only, at 29:58 ('Of course, maybe they were hauling it 50 miles'), answered by Ann. Attribution is by dialogue structure, not by voice: a pitch comparison put the objection at 186 Hz against Ann's 205-216 Hz, a margin inside her own range across the recording, so pitch does not settle it."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1904.213,
+      "master": {
+        "filename": "History of George Marshall and other Ministers.m4a",
+        "sha256": "890e4ab6225687f7cb6af612d081272e3418526e74cf900a9d6d9da347953257",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 75371783,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/History of George Marshall and other Ministers/History of George Marshall and other Ministers.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 3789,
+    "corrections": 20,
+    "review_state": "corrected"
+  }
+}

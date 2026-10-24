@@ -1,0 +1,697 @@
+{
+ "meta": {
+  "title": "J.D. Patterson oral history \u2014 transcription seed",
+  "source_document": "James Douglass Patterson - Library Booklet (64 pages).pdf (scan 20261021153321.pdf, Canon iPR V700, 2026-10-21)",
+  "source_text": "OCR + conservative correction pass (not verbatim)",
+  "purpose": "Vocabulary/prompt seed for ASR of the Patterson recordings (Side A / Side B). A seed is a hypothesis generator, not evidence: it biases the decoder toward these spellings and must never be used to overwrite what the tape actually says.",
+  "reconciliation": "Names and places checked against the booklet text and against Upper St. Clair / Bethel Park history (Historic Pittsburgh, Historical Society of Upper St. Clair, Blueprint Bethel Park, twpusc.org, Bethel Cemetery records).",
+  "generated": "2026-10-23",
+  "updated": "2026-10-23",
+  "revision": "Second revision: derived from the page-by-page transcription of the page images, not the machine OCR. Corrects Simpson->Sampson farm, Follart->Foliart, Dotling->Detling, and adds the names, roads and landmarks the OCR had dropped.",
+  "note": "Confidence 'high' = corroborated in Upper St. Clair / Bethel Park historical sources; 'document' = read from the transcript itself; 'low' = uncertain reading, verify against the page image."
+ },
+ "people": [
+  {
+   "name": "James Douglass Patterson",
+   "aliases": [
+    "J.D. Patterson",
+    "Jim Patterson",
+    "Jim",
+    "J.D."
+   ],
+   "role": "interviewee, lifelong Bethel/Upper St. Clair resident",
+   "evidence": "booklet title page + interview header",
+   "confidence": "high"
+  },
+  {
+   "name": "June Ellington",
+   "aliases": [
+    "Juno Ellington",
+    "June"
+   ],
+   "role": "interviewer",
+   "evidence": "interview header; OCR reads 'Juno' \u2014 the real given name is June",
+   "confidence": "high"
+  },
+  {
+   "name": "Mrs. T. R. Stump",
+   "aliases": [
+    "Mrs. T.R. Stump"
+   ],
+   "role": "typist of the transcript",
+   "evidence": "interview header",
+   "confidence": "high"
+  },
+  {
+   "name": "James Douglass Patterson Sr.",
+   "aliases": [
+    "James Douglass",
+    "James Douglass, Sr."
+   ],
+   "role": "grandfather; the booklet is dedicated to the grandson of James Douglass, Sr.",
+   "evidence": "booklet title page",
+   "confidence": "medium"
+  },
+  {
+   "name": "R. M. Patterson",
+   "aliases": [
+    "Mr. and Mrs. R. M. Patterson"
+   ],
+   "role": "father of J.D. Patterson",
+   "evidence": "booklet title page",
+   "confidence": "medium"
+  },
+  {
+   "name": "Etta Douglas",
+   "aliases": [
+    "Etta Douglas Patterson"
+   ],
+   "role": "mother of J.D. Patterson (maiden name Douglas)",
+   "evidence": "transcript: 'My mother was Etta Douglas'",
+   "confidence": "medium"
+  },
+  {
+   "name": "Trixie",
+   "aliases": [],
+   "role": "the Patterson family dog named in the booklet title",
+   "evidence": "booklet title page",
+   "confidence": "high"
+  },
+  {
+   "name": "Lawrence Fife",
+   "aliases": [
+    "Laurence Fife",
+    "Holtz Fife"
+   ],
+   "role": "neighbouring farm family; 'Lawrence Fife farmhouse and barn'",
+   "evidence": "transcript + Historic Pittsburgh photograph of the Nathaniel Fife farmhouse ('Myra Phillips Fife was the wife of Laurence Fife')",
+   "confidence": "high"
+  },
+  {
+   "name": "Nathaniel Fife",
+   "aliases": [
+    "Nathanial Fife"
+   ],
+   "role": "Fife farm family (Upper St. Clair)",
+   "evidence": "Historic Pittsburgh photograph record",
+   "confidence": "high"
+  },
+  {
+   "name": "Myra Phillips Fife",
+   "aliases": [
+    "Myra Phillips"
+   ],
+   "role": "wife of Laurence Fife",
+   "evidence": "Historic Pittsburgh record; 'Phillips' family also appears in the transcript",
+   "confidence": "high"
+  },
+  {
+   "name": "Carrie McMurray",
+   "aliases": [
+    "Carrje McMurray",
+    "Carrie McMurray"
+   ],
+   "role": "married into the Fife family",
+   "evidence": "transcript: 'That was Holtz Fife. He married a McMurray, Carrje McMurray'",
+   "confidence": "medium"
+  },
+  {
+   "name": "John Fife Sr.",
+   "aliases": [
+    "John Fife, the Pioneer"
+   ],
+   "role": "first settler of Upper St. Clair Township (1721-1800), Bethel Cemetery",
+   "evidence": "Upper St. Clair historical records",
+   "confidence": "high",
+   "note": "likely referenced only in passing; include so the decoder spells Fife correctly"
+  },
+  {
+   "name": "Toddy Edwards",
+   "aliases": [],
+   "role": "Brookside Lumber",
+   "evidence": "transcript",
+   "confidence": "medium"
+  },
+  {
+   "name": "Donaldson",
+   "aliases": [
+    "Donaldson's Barn",
+    "Donaldson's Crossroads"
+   ],
+   "role": "local family/barn/road junction",
+   "evidence": "transcript",
+   "confidence": "medium"
+  },
+  {
+   "name": "Espy",
+   "aliases": [
+    "Espy place",
+    "McDonnell and Espy"
+   ],
+   "role": "local family/farm",
+   "evidence": "transcript",
+   "confidence": "medium"
+  },
+  {
+   "name": "McDonnell",
+   "aliases": [
+    "McDonnell"
+   ],
+   "role": "local family ('the McDonnell and Espy home')",
+   "evidence": "transcript",
+   "confidence": "medium"
+  },
+  {
+   "name": "Phillips",
+   "aliases": [],
+   "role": "family with a grocery store toward Library, PA; Phillips also married into the Fife family",
+   "evidence": "transcript + Historic Pittsburgh",
+   "confidence": "medium"
+  },
+  {
+   "name": "Roland Foliart",
+   "note": "neighbour, next farm; 'spelled F O L I A R T'; Brookside Lumber stands on his place",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Joe Baldesberger",
+   "note": "bought half the old Douglas farm; children Robert and Lucille in school at Irishtown",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Carrie Baldesberger",
+   "note": "taught at Bethel",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Bob Stilley",
+   "note": "shot at the family farm off Fort Couch Road, c.1930-31; brothers Hugh and Emerson",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Neff family",
+   "note": "Bob, Jack and Jim; active in Bethel Church",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Walters family",
+   "note": "Clayton 'Butch', George, Chris, Lawrence, Johnny, Louis; farm on Bethel Church Road",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Will Hultz",
+   "note": "peach orchard on Fort Couch Road; four daughters",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Harry Hultz",
+   "note": "Bethel Church Road; three sons and a daughter",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "James Hultz Boyer",
+   "note": "'Holtz' Boyer, later went by Jim Boyer",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Allon McCune",
+   "note": "married the speaker's father's sister; children included Roy, Keefor, John, Blanche, Donald",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Clarence McMillan",
+   "note": "owner of the Nebraska ranch the family moved to in 1911; sixth-generation descendant of Dr. John McMillan",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Dr. John McMillan",
+   "note": "established the Hill Church",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Elizabeth Waite",
+   "note": "n\u00e9e Douglas; lived in Wiltshire",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Ellsworth Phillips",
+   "note": "grocery store at the old village; daughter Myra married Lawrence Fife",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "J. Walter Phillips",
+   "note": "held the Thomas Espy Civil War sword",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Violet Valentino",
+   "note": "pupil, misplaced in second grade",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Aloe Patag",
+   "note": "pupil, promoted into seventh grade",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Rose Jory",
+   "note": "pupil who kept the school stove and knew every grade's books",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Taylor Cheeseman",
+   "note": "married Emily Fife; the Fifeshire name comes from her",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Harry Edgar",
+   "note": "violinist, Peters Township",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Bill Fosbaugh",
+   "note": "barn dances on Stoltz Road below McConkey Road",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Charlie Wicks",
+   "note": "took the Jim Fife farm after the 1916 sale",
+   "confidence": "document",
+   "aliases": []
+  }
+ ],
+ "places": [
+  {
+   "name": "Bethel Park",
+   "aliases": [
+    "Bethel",
+    "Bethel Township"
+   ],
+   "note": "township formed 1886 from surrounding townships; named for Bethel Presbyterian Church",
+   "confidence": "high"
+  },
+  {
+   "name": "Upper St. Clair",
+   "aliases": [
+    "Upper Saint Clair",
+    "U.S.C."
+   ],
+   "note": "township north of Bethel Park; John Fife Sr. settled it in 1766",
+   "confidence": "high"
+  },
+  {
+   "name": "Bethel Presbyterian Church",
+   "aliases": [
+    "Bethel Church"
+   ],
+   "note": "oldest organized Presbyterian church in Allegheny County; first recorded service 1776",
+   "confidence": "high"
+  },
+  {
+   "name": "Bethel Cemetery",
+   "aliases": [
+    "Bethel graveyard"
+   ],
+   "note": "~15 acres; Fife family graves at the entrance",
+   "confidence": "high"
+  },
+  {
+   "name": "Irishtown",
+   "aliases": [
+    "Irishtown Road",
+    "Irish Town"
+   ],
+   "note": "real road and old settlement name in Bethel Park (Irishtown Rd, 15102)",
+   "confidence": "high"
+  },
+  {
+   "name": "Brookside",
+   "aliases": [
+    "Brookside Farms"
+   ],
+   "note": "Brookside Farms was Upper St. Clair's first real-estate development (1913, with the trolley)",
+   "confidence": "high"
+  },
+  {
+   "name": "Library",
+   "aliases": [
+    "Library, PA"
+   ],
+   "note": "borough adjacent to Bethel Park; 'there are more Phillips around Library than you can count'",
+   "confidence": "high"
+  },
+  {
+   "name": "McMurray",
+   "aliases": [],
+   "note": "neighbouring area (Peter's Township); also the McMurray family name",
+   "confidence": "medium"
+  },
+  {
+   "name": "Fort Couch",
+   "aliases": [],
+   "note": "stockade ~500 yards west of Bethel Church, later a Whiskey Insurrection rendezvous",
+   "confidence": "medium"
+  },
+  {
+   "name": "Hillcrest",
+   "aliases": [
+    "Hillerost (OCR)"
+   ],
+   "note": "local place mentioned on the milk route",
+   "confidence": "low"
+  },
+  {
+   "name": "California",
+   "aliases": [],
+   "note": "the transcript also mentions moving to California and later Nebraska (1911) \u2014 not local",
+   "confidence": "low"
+  },
+  {
+   "name": "Nebraska",
+   "aliases": [],
+   "note": "family moved there March 1911",
+   "confidence": "high"
+  },
+  {
+   "name": "Pittsburgh",
+   "aliases": [],
+   "confidence": "high"
+  },
+  {
+   "name": "Brush Run Road",
+   "note": "where Richard Miller Patterson was raised, above Peters Creek Church",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Irishtown Hollow",
+   "note": "old name for the Clifton-Library Road settlement",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Bower Hill",
+   "note": "Jack Fife's place",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Ruthfred Acres",
+   "note": "above Drake Road; a claimed Klan meeting site the speaker doubted",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Wiltshire",
+   "note": "street off McMurray Road past Hamel's",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Drake Stop",
+   "note": "streetcar stop; Drake Road runs up to Rutherford Acres",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Fort Couch Road",
+   "note": "Stilley and Walters farms",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Bethel Church Road",
+   "note": "Walters farm with the stone pillars",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Thomas Road",
+   "note": "Douglas land; Kurtz's tree farm; Holtz Fife's parents' brick house",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Hastings Mill Road",
+   "note": "near the Albert Fife house",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Paris Lake",
+   "note": "below the John Fife house at the end of Fife Drive",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Sugar Run Road",
+   "note": "Venetia toward Mingo Park",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Thomas Station",
+   "note": "DeVore family, named as Klan members",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Grove Station",
+   "note": "Route 88; Muskie greenhouses; the Grove dance pavilion",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Washington Junction",
+   "note": "carline junction; Mine #3 and the Phillips School",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Fifeshire",
+   "note": "trolley stop and later a plan of streets, named by Emily Fife Cheeseman",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Valley Farm",
+   "note": "the John T. Fife trolley stop",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Cremona",
+   "note": "trolley stop for the Will T. Fife house",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Krebs Corner",
+   "note": "near Donaldson's Crossroads",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Clifton",
+   "note": "old village, called 'Sodom' by the old people",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Beadling",
+   "note": "locality on Painters Run Road",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Mine #3",
+   "note": "coal patch near Washington Junction; Phillips School",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "School House Arts",
+   "note": "the 1916-17 Bethel school building on Park Avenue",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Trotwood Acres",
+   "note": "development that absorbed the Orr farm",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "St. Louise de Marillac",
+   "note": "built on the Baldesberger farm",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Sampson farm",
+   "aliases": [
+    "Sampson farm market"
+   ],
+   "note": "where Etta Douglas's parents lived at one time; the farm market in the transcript. The OCR read this as 'Simpson'.",
+   "confidence": "document"
+  }
+ ],
+ "roads": [
+  {
+   "name": "Patterson Road",
+   "note": "Patterson family road; real road in Bethel Park",
+   "confidence": "high"
+  },
+  {
+   "name": "Boyer Road",
+   "note": "'57 Boyer Road' \u2014 J.D. Patterson's address at interview time; also in the Side A/B audio",
+   "confidence": "high"
+  },
+  {
+   "name": "Irishtown Road",
+   "note": "real; meets Patterson and Logan roads",
+   "confidence": "high"
+  },
+  {
+   "name": "Logan Road",
+   "note": "real; the Irishtown/Patterson/Logan intersection is a known Bethel Park junction",
+   "confidence": "high"
+  },
+  {
+   "name": "Clifton Road",
+   "note": "real, Bethel Park",
+   "confidence": "high"
+  },
+  {
+   "name": "East McMurray Road",
+   "note": "real, Bethel Park",
+   "confidence": "high"
+  },
+  {
+   "name": "Route 19",
+   "aliases": [
+    "Route Nineteenth",
+    "Route 19"
+   ],
+   "note": "main north-south road through the area ('Route' appears 10x in the transcript)",
+   "confidence": "medium"
+  }
+ ],
+ "businesses": [
+  {
+   "name": "Brookside Lumber",
+   "note": "Toddy Edwards' lumber yard",
+   "confidence": "medium"
+  },
+  {
+   "name": "Phillips grocery store",
+   "note": "toward Library",
+   "confidence": "medium"
+  },
+  {
+   "name": "Donaldson's Barn",
+   "note": "landmark building, floored upper level",
+   "confidence": "medium"
+  },
+  {
+   "name": "Fifeshire",
+   "aliases": [
+    "Fifeshire trolley stop",
+    "Fifeshiro (OCR)"
+   ],
+   "note": "streetcar stop named for the Fife family \u2014 low confidence spelling, verify against the page image before using",
+   "confidence": "low"
+  },
+  {
+   "name": "Donaldson's Barn",
+   "note": "dance barn at Donaldson's Crossroads; the Union National Bank stands on the site",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Hollywood restaurant",
+   "note": "near the toy store; moved when the highway went through",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Poellot's hardware",
+   "note": "old village; took over the grocery when Phillips quit",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Slator Food Store",
+   "note": "Bethel; Emma Walters married Slator",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Donati Greenhouses",
+   "note": "on the Grazier farm before South Hills Village",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Hamel's Funeral Home",
+   "note": "landmark on McMurray Road",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Brookside Lumber",
+   "note": "Toddy Edwards; on the old Foliart place",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "Shannon-Library streetcar",
+   "note": "formerly the Charleroi line, running to Charleroi and Roscoe",
+   "confidence": "document",
+   "aliases": []
+  },
+  {
+   "name": "the wharf market",
+   "note": "Pittsburgh produce market; growers left before dark and sold in the small hours",
+   "confidence": "document",
+   "aliases": []
+  }
+ ],
+ "terms": [
+  "trolley",
+  "streetcar",
+  "milk route",
+  "farmhouse",
+  "barn",
+  "crossroads",
+  "blacksmith",
+  "grange",
+  "school",
+  "church",
+  "arch",
+  "mine",
+  "coal"
+ ],
+ "asr_prompt": "Oral history interview with J. D. Patterson of Bethel Park, Pennsylvania, recorded 20 April 1979, interviewed by June Ellington, transcript typed by Mrs. T. R. Stump. Places: Bethel Park, Upper St. Clair, Patterson Road, Boyer Road, Brush Run Road, Irishtown Road, Logan Road, McMurray Road, McLaughlin Run Road, Thomas Road, South Park Road, Fort Couch Road, Bethel Church Road, Wiltshire, Rutherford Acres, Brookside, Fifeshire, Library, Beadling, Peters Creek Church, Bethel Presbyterian Church. Families: Patterson, Fife, Douglas, Phillips, Foliart, Baldesberger, Stilley, Neff, Walters, Hultz, McCune, McMillan, Espy, Johnston, Ellington, Stump."
+}

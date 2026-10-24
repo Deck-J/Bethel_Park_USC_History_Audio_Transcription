@@ -1,0 +1,137 @@
+{
+  "id": "unknown-ann-connor-sides-a-b",
+  "title": "Ann Connor — a tour of the Historical Room, sides A and B",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "unknown",
+  "date_source": "No date is stated anywhere on either side: there is no slate, no cassette label read aloud, and no year spoken. The content dates itself only approximately: she speaks of the congregation's 225th anniversary as an event being planned (the church dates from McMillan's meeting of 5 November 1776, so 1776 + 225 = 2001) and of a skit at the Miller Homestead on 'the 22nd of July'. The archive's own transcript header records 'recorded c. 2001'. Day and month cannot be established from the material, so the date is recorded as unknown with a terminus of c. 2001. 2026-10-18, in the source folder name, is the digitisation date, not the recording date.",
+  "kind": "recording",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "Three renderings of Side A and two of Side B are held: the ALAC masters (46:13.248 and 46:41.749), MP3 access copies of both, and — for Side A only — the earlier, much quieter original capture (AAC mono, 46:01.792) with a gain-raised FLAC and a 192 kbps MP3 made from it. Only the ALAC masters are transcribed; see README §2 for the measured relationship between the Side A files."
+  },
+  "speakers": [
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "subject",
+      "note": "Retired history teacher; built the Historical Room in the former study of Rev. Murray C. Reiter. The first name is spoken on the tape by another voice at about 8:50; the surname is never spoken and comes from the archive's filename."
+    },
+    {
+      "label": "INTERVIEWER",
+      "name": "unidentified interviewer",
+      "role": "interviewer",
+      "note": "An off-mic questioner (possibly more than one) who prompts the tour; the tape never names them and the archive's transcript does not either."
+    },
+    {
+      "label": "OTHER",
+      "name": "voices in the room",
+      "role": "other",
+      "note": "Occasional third voices — someone arriving, an aside about a car — not separable or identifiable."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 2773.248,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side A.m4a",
+        "sha256": "ba58608dfda557f8af8bd154421493f580e286b887d10d1e6fe143f2695dc002",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 95038489,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side A.m4a"
+      }
+    },
+    {
+      "id": "A-mp3",
+      "transcript": "transcript-a.md",
+      "duration_s": 2773.2,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side A.mp3",
+        "sha256": "5f6578a7e3dfee20a1857e967723cc4204a2af7a9324ef680b4a38da38040fb2",
+        "format": "MP3 48 kHz mono 64 kbps — access copy of side A",
+        "size_bytes": 22186228,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side A.mp3"
+      }
+    },
+    {
+      "id": "A-capture",
+      "transcript": "transcript-a.md",
+      "duration_s": 2761.792,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side A (2026-10-18 capture).flac",
+        "sha256": "32eee074954b6fa523707cd0f602d9ee9a284ff4dd033bc22c21f8750043cf8c",
+        "format": "FLAC 48 kHz mono 16-bit — gain-raised rendering of the original capture",
+        "size_bytes": 121225023,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side A (2026-10-18 capture).flac"
+      }
+    },
+    {
+      "id": "A-capture-mp3",
+      "transcript": "transcript-a.md",
+      "duration_s": 2761.792,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side A (2026-10-18 capture).mp3",
+        "sha256": "cf2419d6641e76883b321b5a0a6ef25ce6b151a7d4b0cdf3594dd697c9db324e",
+        "format": "MP3 48 kHz mono 192 kbps — made from the capture FLAC",
+        "size_bytes": 66284955,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side A (2026-10-18 capture).mp3"
+      }
+    },
+    {
+      "id": "A-original",
+      "transcript": "transcript-a.md",
+      "duration_s": 2761.792,
+      "master": {
+        "filename": "audio_106911687b1d.m4a",
+        "sha256": "aa337e4cab609c16bc9b5f10968f2ca9a415b13315cdd45ad5693d6109c17f8c",
+        "format": "AAC 48 kHz mono, 58 kbps — the original capture as received (mean -44.1 dBFS)",
+        "size_bytes": 20010825,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Source original/audio_106911687b1d.m4a"
+      }
+    },
+    {
+      "id": "B",
+      "transcript": "transcript-b.md",
+      "srt": "transcript-b.srt",
+      "notes": "notes-b.md",
+      "duration_s": 2801.749,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side B.m4a",
+        "sha256": "51b20ac45316b6573a4c902efcbee45cba77bc4989e49e75572ef32cdcf890dc",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 106884706,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side B.m4a"
+      }
+    },
+    {
+      "id": "B-mp3",
+      "transcript": "transcript-b.md",
+      "duration_s": 2801.692,
+      "master": {
+        "filename": "Ann Connor - Sides A and B - Side B.mp3",
+        "sha256": "60b8847dd68f310a6041b0fed9c7d004160ccaf6e61ac9e0562ea7cb392f69b1",
+        "format": "MP3 48 kHz mono 64 kbps — access copy of side B",
+        "size_bytes": 22414324,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - Sides A and B/Ann Connor - Sides A and B - Side B.mp3"
+      }
+    }
+  ],
+  "rights": {
+    "status": "unknown",
+    "statement": "No per-item rights line is on file for this recording. It was digitised by John Decker for the Historical Room in 2026 and is published here as part of that collection, but docs/RIGHTS.md requires a holder's release per recording, and none is recorded for the Ann Connor sides; the tape carries no ownership statement of its own.",
+    "basis": "Collection provenance only. Treated as not cleared until the Historical Room confirms a release; see docs/RIGHTS.md rule 1."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.2",
+    "labelled": true,
+    "word_count": 11018,
+    "corrections": 18,
+    "review_state": "corrected"
+  }
+}

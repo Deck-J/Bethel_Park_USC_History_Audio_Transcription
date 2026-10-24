@@ -1,0 +1,62 @@
+{
+  "id": "1983-09-25-ann-connor-john-mcmillan",
+  "title": "Ann Connor — lecture on the Reverend John McMillan",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — a lecture, 25 September 1983",
+  "date": "1983-09-25",
+  "date_source": "Filename, not a slate. The source JSON records that the archive's original capture name for this file was 'Ann-Connor John McMillian 9-25-83' (field date_recorded_basis). The tape carries no spoken date and no copyist's slate, and nothing on it contradicts 25 September 1983. Internal detail agrees with it without proving it: her McMillan genealogy is spoken of as published in 1981, and she describes herself as just retired after 32 and a half years of public-school teaching.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-20",
+    "capture_notes": "One cassette capture, ALAC 48 kHz stereo 16-bit, 1,871.445 s, 60,417,099 bytes, md5 6c9a120aa52d6f650473ba60d740ce66 (recomputed here and identical to the md5 in the source notes). Found inside 'JD Patterson - Side A/' under the name 'Ann-Connor John McMillian 9-25-83.m4a', with a byte-identical copy loose at the archive root; moved to this folder and verified by md5 before and after. No crop, no gain, no denoise: the file is the capture as received. Source JSON records date_digitised 2026-10-20."
+  },
+  "speakers": [
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "narrator",
+      "note": "The lecturer, and the compiler of the McMillan genealogy she presents in the first minutes. The surname is never spoken on the tape; it is John Decker's attribution and the content agrees (she speaks as the book's compiler and of 'my husband')."
+    },
+    {
+      "label": "HOST",
+      "name": "unidentified woman",
+      "role": "other",
+      "note": "0:00–0:34 only. Introduces Ann in the third person and says she and her husband are members of Venice United Presbyterian Church. Never named on the tape."
+    },
+    {
+      "label": "HUSBAND",
+      "name": "Ann Connor's husband (unnamed)",
+      "role": "other",
+      "note": "1:33–3:27. Passes round a 1935 McMillan reunion photograph he reproduced and numbered himself ('my wife has composed this book'). His name is not on the tape."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1871.445333,
+      "master": {
+        "filename": "Ann Connor - John McMillan Lecture (25 September 1983).m4a",
+        "sha256": "fa8c8fe039dfee3da9675fb74037862cede120a6f474a3490d2f20e4bda609a8",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 60417099,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - John McMillan Lecture (25 September 1983)/Ann Connor - John McMillan Lecture (25 September 1983).m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder; see README §6."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 4585,
+    "corrections": 203,
+    "review_state": "corrected"
+  }
+}

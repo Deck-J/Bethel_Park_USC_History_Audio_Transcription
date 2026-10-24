@@ -1,0 +1,62 @@
+{
+  "id": "1977-11-06-ann-connor-bethel-needlepoint",
+  "title": "Ann Connor — the 201st anniversary: Bethel needlepoint and the Miller homestead",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — a Sunday-school talk with a needlepoint demonstration, 6 November 1977",
+  "date": "1977-11-06",
+  "date_source": "The tape dates itself in its first sentence: 'Today is November the 6th, 1977. We mark this as the 201st birthday of Bethel and Lebanon churches.' 1776 + 201 = 1977, so the reading is internally consistent. No copyist's slate is present; the spoken date is the evidence, and the folder name follows it.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One capture, ALAC 48 kHz stereo 16-bit, 2,675.797 s, 78,391,869 bytes, md5 283850bb88ac5c5723f5ea7da5091e9c (computed here; the source notes give no md5 to compare against). The source notes record the file as added 2026-10-18 16:48 and the NAS mtime agrees (2026-10-18 16:48 EDT). The filed document's own header reads 'digitised 2026-10-19', which the notes elsewhere treat as the transcription date; the two dates are not reconciled in the source, and 2026-10-18 is used here because it is the file's own timestamp. Master untouched; the 41 m 17 s MP3 beside it is a listening copy with the silent tail removed, not the master."
+  },
+  "speakers": [
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "narrator",
+      "note": "The speaker throughout. The tape never states her name; 'Ann Connor' is family/archive attribution (the Oliver Miller Homestead Associates' published history names her as Anna (Thomas) Connor), and the content agrees — she describes her husband John, her years as a history teacher and the homestead's volunteer group."
+    },
+    {
+      "label": "INTERVIEWER",
+      "name": "visiting adults (unnamed)",
+      "role": "other",
+      "note": "The lace and needlepoint questions from 31:00 on, and one or two earlier asides. No diarization was run; the label marks an adult voice that is not Ann's."
+    },
+    {
+      "label": "CHILD",
+      "name": "children in the Sunday-school class (unnamed)",
+      "role": "other",
+      "note": "Short answers in the question-and-answer passages (e.g. 'What is a sample?', 'Fort Couch Road'). Inferred from content; not individually identified."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 2675.797333,
+      "master": {
+        "filename": "Ann Connor - History of Bethel Needlepoint.m4a",
+        "sha256": "fce6464dbd8cfaa4cbdcc77a5f539def0bbadb08b230bb1a6aef6ada4ecc190f",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 78391869,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Ann Connor - History of Bethel Needlepoint/Ann Connor - History of Bethel Needlepoint.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder; see README §6."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 5890,
+    "corrections": 47,
+    "review_state": "corrected"
+  }
+}

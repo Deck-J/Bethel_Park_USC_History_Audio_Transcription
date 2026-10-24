@@ -1,0 +1,69 @@
+{
+  "id": "1979-04-20-jd-patterson-side-a",
+  "title": "J.D. Patterson — teaching in Bethel and Canton townships, and the Stilley shooting (side A)",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "1979-04-20",
+  "date_source": "The tape gives the day and month only: it opens 'April 20th, and I'm talking to A.J. Patterson - J.D. Patterson' (0:09) and states no year. The year is established from the typescript of the same interview, filed in this collection as unknown-jd-patterson-documents, whose title page reads 'Oral interview with Mr. J. D. Patterson, April 20, 1979' and whose running head on later pages repeats the date; it also names the interviewer, June Ellington, and the typist, Mrs. T. R. Stump. The archive's own transcription record supplies the same date. Nothing on this side contradicts it. The folder id keeps the unknown- prefix this item was queued under; the date below is the established one.",
+  "kind": "recording",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-19",
+    "capture_notes": "One cassette side, ALAC 48 kHz stereo 16-bit, 35:56.288. Speech ends at 31:01.8 and the remaining 294.4 s is digital silence left by the tape running on; nothing was cropped from the master. The MP3 beside it is a condensed access copy (30:49.9) made by cutting the silent head, the silent tail and one internal gap."
+  },
+  "speakers": [
+    {
+      "label": "JD",
+      "name": "James Douglass Patterson",
+      "role": "subject",
+      "note": "Of 57 Boyer Road, Bethel Park; born 14 March 1904 (typescript front matter); schoolteacher for over forty years in Taylorstown, Canton Township, Chartiers Township, Nebraska and Peters Township."
+    },
+    {
+      "label": "JUNE",
+      "name": "June Ellington",
+      "role": "interviewer",
+      "note": "Named on the tape at 0:09 by herself."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 2156.288,
+      "master": {
+        "filename": "JD Patterson - Side A.m4a",
+        "sha256": "6b99a72c6feb402a63923a92628c22fe7b914b096d0a3138efa651a9a1408ed2",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 105592428,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/JD Patterson - Side A/JD Patterson - Side A.m4a"
+      }
+    },
+    {
+      "id": "A-mp3",
+      "transcript": "transcript-a.md",
+      "duration_s": 1849.933,
+      "master": {
+        "filename": "JD Patterson - Side A.mp3",
+        "sha256": "28abff133b7dab97fc1ce11173c973fffb75e13418ad3a60609b13bff817ec3f",
+        "format": "MP3 48 kHz mono 64 kbps — condensed access copy (306.3 s of silence removed, no speech cut)",
+        "size_bytes": 14799980,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/JD Patterson - Side A/JD Patterson - Side A.mp3"
+      }
+    }
+  ],
+  "rights": {
+    "status": "unknown",
+    "statement": "No holder's release for this recording is recorded. The collection was digitised by John Decker for the Historical Room in 2026, but docs/RIGHTS.md requires a release per recording, and the cassette itself carries no ownership statement.",
+    "basis": "Collection provenance only; not cleared until the Historical Room confirms a release."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 4491,
+    "corrections": 26,
+    "review_state": "corrected"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1971-10-17-george-marshall-class",
+  "title": "Ann Connor — A class on Dr. George Marshall",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "1971-10-17",
+  "date_source": "The date is written on the physical cassette label, `10.17.71`, as recorded in the archive's working notes, where the digitizer confirms it is a label on the tape and not an inference from a filename. 17 October 1971 was a Sunday, and the tape is a Sunday-school class (\"as we saw last Sunday with our communion set\", \"I gave you an assignment last week\"). The one forward-looking date on the tape fits: at 12:10 she says Mr. White will speak \"on the 31st of this month\", and 31 October 1971 was also a Sunday. The tape states no date of its own and nothing on it contradicts the label. 2026-10-18 is the digitisation date.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One cassette side, captured as ALAC 48 kHz stereo 16-bit, 1,823.744 s, 44,640,137 bytes, unchanged as received (md5 900a30ad9459a04cbb37fc7e07e04760). Very quiet: -42.1 dBFS mean, about 19 dB below the rest of the collection. The master carries no processing; a loudnorm listening copy exists as MP3 only. The last three and a half minutes are a separate session left running on the same tape."
+  },
+  "speakers": [
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "subject",
+      "note": "Teaching the class: the historical room's collector, and the speaker for 82 of the 90 paragraphs. Median f0 205-254 Hz across her blocks."
+    },
+    {
+      "label": "GUEST",
+      "name": "unidentified male participant",
+      "role": "other",
+      "note": "A male voice at 123-142 Hz: two interjections during the class (a geographical correction and an anecdote about a Westinghouse lawyer) and then a continuous first-person account of his own ministry from 27:05, ending \"On May 1st, 1967, I retired.\" Whether the interjections and the closing account are the same man is unresolved; they share one label rather than being guessed apart."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1823.744,
+      "master": {
+        "filename": "George Marshall Class (17 October 1971).m4a",
+        "sha256": "e64aba5a3afbf134ca3468338c1cfef6ad9a56054f9a0729b7c028c4ca54c92e",
+        "format": "ALAC 48 kHz stereo 16-bit, 195.8 kb/s",
+        "size_bytes": 44640137,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/George Marshall Class (17 October 1971)/George Marshall Class (17 October 1971).m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release; the recordings were made for and of the church's own historical collection and are distributed for research and reuse."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 3554,
+    "corrections": 155,
+    "review_state": "corrected"
+  }
+}

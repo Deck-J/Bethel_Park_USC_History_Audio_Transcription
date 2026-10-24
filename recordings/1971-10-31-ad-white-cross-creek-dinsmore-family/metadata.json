@@ -1,0 +1,56 @@
+{
+  "id": "1971-10-31-ad-white-cross-creek-dinsmore-family",
+  "title": "A.D. White — Cross Creek and the Dinsmore family",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "1971-10-31",
+  "date_source": "The cassette label reads 10.31.71 — recorded in the archive JSON's `date_basis`; the original capture filename it also records, `10.31.71 Alvin Dinsmore White  History of Cross Creek and Dinsmore family.m4a`, carries the same string. 31 October 1971 was a Sunday, the day this class met. The tape corroborates it: Ann Connor announced on the 17 October 1971 class tape that \"on the 31st of this month, Mr. Alvin Dinsmore White is going to come back\", and at the head of this tape she introduces him. Nothing on the tape contradicts the label. 2026-10-18 is the digitisation date, not the recording date.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One cassette side, captured as ALAC 48 kHz stereo 16-bit, 1,862.997 s, 60,978,057 bytes, unchanged as received (md5 674b2c72569f0c908c729d9101a7729a). The source folder also holds `second recording.m4a`, a shorter second capture of the same lecture (1,858.304 s); it was not transcribed and is not filed as a side. The master carries no processing; a +10.2 dB loudnorm working copy was made on disk for the ASR pass only."
+  },
+  "speakers": [
+    {
+      "label": "WHITE",
+      "name": "Alvin Dinsmore White",
+      "role": "subject",
+      "note": "Of Hickory, Pennsylvania (1894–1992); author of the Cross Creek church history, and a great-great-great-grandson of James Dinsmore, whose life he narrates here. Named on the tape by Ann Connor at 5:41."
+    },
+    {
+      "label": "ANN",
+      "name": "Ann Connor",
+      "role": "other",
+      "note": "Introducer, not an interviewer: she presents the speaker and his book to the class library from 0:00 to about 6:35, then hands over and does not question him. Named by White at 6:40 (\"Thank you, Mrs. Conner\")."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1862.997,
+      "master": {
+        "filename": "Alvin Dinsmore White - Cross Creek and the Dinsmore Family (31 October 1971).m4a",
+        "sha256": "bc783c63321fb20937a877f692517080361e7c87be86d3448e84d1b756ac40c9",
+        "format": "ALAC 48 kHz stereo 16-bit, 261.8 kb/s",
+        "size_bytes": 60978057,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Alvin Dinsmore White - Cross Creek and the Dinsmore Family (31 October 1971)/Alvin Dinsmore White - Cross Creek and the Dinsmore Family (31 October 1971).m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release; the recordings were made for and of the church's own historical collection and are distributed for research and reuse."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 3718,
+    "corrections": 183,
+    "review_state": "corrected"
+  }
+}

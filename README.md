@@ -25,8 +25,10 @@ schema/recording.schema.json   the shape metadata.json must take
 bin/check.py                   the gate (schema, files, checksums, no audio)
 bin/gen_checksums.py           writes checksums.sha256 for a recording folder
 docker/                        the pinned environment that produced the transcripts, and how to run it
+bin/gen_collection.py          regenerates the index from the recordings themselves
+docs/COLLECTION.md             the index: every item, its date, length, words and speakers
 docs/AUDIO.md                  where the masters live, and why they are not here
-docs/RIGHTS.md                 the public-domain statement and its basis
+docs/RIGHTS.md                 the rights statement, and what a future deposit must record
 ```
 
 Every recording is self-describing: someone who opens
@@ -110,7 +112,12 @@ an issue — that is honoured without argument.
 
 ## Contents
 
-- **1971-07-15 — A.D. White, "Cross Creek records and the Whiskey Rebellion"** — 31 m 12 s + 20 m 15 s,
-  6,525 words, both sides labelled and corrected. The church's historian on the Vance case, Cross Creek
-  Academy, George Marshall and a letter of 27 July 1863 read in full, and the Whiskey Rebellion's
-  Oliver Miller and the still at the Stone Manse. → `recordings/1971-07-15-ad-white-cross-creek/`
+The index is **generated**, not written by hand — `python3 bin/gen_collection.py` reads every
+recording's `metadata.json` and rebuilds it, so it cannot list an item that is not here or miss one
+that is:
+
+- **→ [`docs/COLLECTION.md`](docs/COLLECTION.md)** — all items, with date, length, word count and
+  speaker(s)
+
+Fourteen items so far: interviews and lectures recorded between 1971 and 1983 with the church's own
+historians and oldest families, plus one papers-only item (the J.D. Patterson typescript).

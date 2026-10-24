@@ -1,0 +1,56 @@
+{
+  "id": "unknown-gertrude-tanner",
+  "title": "Gertrude Tanner — Brookside and the women's club (1985)",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
+  "date": "unknown",
+  "date_source": "No calendar date can be established, so the date field is 'unknown'. The YEAR is 1985, from the tape's own arithmetic: at 15:46 she says the club began \"way back in 1925, and it's exactly 60 years old today\", and at 9:48 \"I have lived there 60 years, plus the two in the little carriage house, making 62 years\" after arriving as a bride in 1923. The opening slate is partly unintelligible: five cold passes over 0:04-0:24 return a garbled date and a year that cannot be true (1965 would make the club 40, not 60), so \"22 May\" is recorded as probable only, and neither day nor month is relied on. The filename carries no date, and 2026-10-18 is the digitisation date.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "One cassette side, captured as ALAC 48 kHz stereo 16-bit, 1,212.842667 s, 23,481,203 bytes, unchanged as received (md5 0b119e0b2683b4bb4d9734e64237078f), moved into this folder from the archive root with the md5 verified either side. Recorded at two levels: 0:00-11:10 about 15 dB below 11:20-19:05, with the step arriving gradually between 11:10 and 11:40. Gain only, two-region (+36.4 dB ramped to +21.5 dB) with a true-peak limiter, applied to the listening copy; the master carries no processing. Speech runs 0:06.6-18:58.5; the remaining 74 s is room tone."
+  },
+  "speakers": [
+    {
+      "label": "GERTRUDE TANNER",
+      "name": "Gertrude Tanner",
+      "role": "subject",
+      "note": "Named in the third person by the librarian at 0:07-0:24 and never named by herself again. Born in Scranton, Pennsylvania; came to Brookside as a bride in 1923; charter member of the Brookside women's club and the last one living. Whether she is the Gertrude Heck who kept the Get-Together Club minutes is unresolved and not asserted."
+    },
+    {
+      "label": "HOST",
+      "name": "unidentified librarian",
+      "role": "other",
+      "note": "Introduces the speaker in the library room of Bethel Presbyterian Church. Her own name is unintelligible in every pass; the label describes the role, not a known person."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1212.842667,
+      "master": {
+        "filename": "Gertrude Tanner Lecture.m4a",
+        "sha256": "eadab1df7547dc445dda2c85683c58507605fab36af888cc4f67e50237ac3b9e",
+        "format": "ALAC 48 kHz stereo 16-bit, 154.9 kb/s",
+        "size_bytes": 23481203,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Gertrude Tanner Lecture/Gertrude Tanner Lecture.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release; the recordings were made for and of the church's own historical collection and are distributed for research and reuse."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1",
+    "labelled": true,
+    "word_count": 2251,
+    "corrections": 35,
+    "review_state": "corrected"
+  }
+}

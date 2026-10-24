@@ -2,65 +2,158 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Oral-history recording metadata",
   "type": "object",
-  "required": ["id", "title", "date", "date_source", "provenance", "speakers", "sides", "rights", "transcript"],
+  "required": [
+    "id",
+    "title",
+    "date",
+    "date_source",
+    "provenance",
+    "speakers",
+    "rights",
+    "transcript",
+    "sides"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$"},
-    "title": {"type": "string", "minLength": 8},
-    "subtitle": {"type": "string"},
-    "date": {"type": "string", "description": "YYYY-MM-DD, or 'unknown'"},
-    "date_source": {"type": "string", "minLength": 10,
-      "description": "Where the date comes from: a slate read on the tape, a cassette label, a filename, an inference. Never blank, never 'from the folder name' alone."},
+    "id": {
+      "type": "string",
+      "pattern": "^(?:[0-9]{4}-[0-9]{2}-[0-9]{2}|unknown)-[a-z0-9-]+$",
+      "description": "<YYYY-MM-DD>-<slug>, or unknown-<slug> when the date cannot be established. Must equal the folder name."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 8
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "description": "YYYY-MM-DD, or 'unknown'"
+    },
+    "date_source": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Where the date comes from: a slate read on the tape, a cassette label, a filename, an inference. Never blank, never 'from the folder name' alone."
+    },
     "provenance": {
       "type": "object",
-      "required": ["digitised_by", "digitised_on", "collection"],
+      "required": [
+        "digitised_by",
+        "digitised_on",
+        "collection"
+      ],
       "additionalProperties": false,
       "properties": {
-        "collection": {"type": "string"},
-        "digitised_by": {"type": "string"},
-        "digitised_on": {"type": "string"},
-        "capture_notes": {"type": "string"}
+        "collection": {
+          "type": "string"
+        },
+        "digitised_by": {
+          "type": "string"
+        },
+        "digitised_on": {
+          "type": "string"
+        },
+        "capture_notes": {
+          "type": "string"
+        }
       }
     },
     "speakers": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["label", "name"],
+        "required": [
+          "label",
+          "name"
+        ],
         "additionalProperties": false,
         "properties": {
-          "label": {"type": "string", "pattern": "^[A-Z][A-Z0-9 _-]+$"},
-          "name": {"type": "string"},
-          "role": {"type": "string", "enum": ["subject", "interviewer", "narrator", "other"]},
-          "note": {"type": "string"}
+          "label": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9 _-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "subject",
+              "interviewer",
+              "narrator",
+              "other"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
         }
       }
     },
     "sides": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 0,
       "items": {
         "type": "object",
-        "required": ["id", "transcript", "duration_s", "master"],
+        "required": [
+          "id",
+          "transcript",
+          "duration_s",
+          "master"
+        ],
         "additionalProperties": false,
         "properties": {
-          "id": {"type": "string"},
-          "transcript": {"type": "string"},
-          "srt": {"type": "string"},
-          "notes": {"type": "string"},
-          "duration_s": {"type": "number", "exclusiveMinimum": 0},
-          "capture_duration_s": {"type": "number", "exclusiveMinimum": 0,
-            "description": "Length of the file as received, when dead tape was cropped off"},
+          "id": {
+            "type": "string"
+          },
+          "transcript": {
+            "type": "string"
+          },
+          "srt": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "duration_s": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "capture_duration_s": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Length of the file as received, when dead tape was cropped off"
+          },
           "master": {
             "type": "object",
-            "required": ["filename", "sha256", "format"],
+            "required": [
+              "filename",
+              "sha256",
+              "format"
+            ],
             "additionalProperties": false,
             "properties": {
-              "filename": {"type": "string"},
-              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-              "format": {"type": "string"},
-              "size_bytes": {"type": "integer"},
-              "location": {"type": "string"},
-              "archive_identifier": {"type": "string"}
+              "filename": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "format": {
+                "type": "string"
+              },
+              "size_bytes": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "string"
+              },
+              "archive_identifier": {
+                "type": "string"
+              }
             }
           }
         }
@@ -68,26 +161,73 @@
     },
     "rights": {
       "type": "object",
-      "required": ["status", "statement"],
+      "required": [
+        "status",
+        "statement"
+      ],
       "additionalProperties": false,
       "properties": {
-        "status": {"type": "string", "enum": ["public-domain", "cc0", "permission-granted", "unknown"]},
-        "statement": {"type": "string", "minLength": 20},
-        "basis": {"type": "string"}
+        "status": {
+          "type": "string",
+          "enum": [
+            "public-domain",
+            "cc0",
+            "permission-granted",
+            "unknown"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 20
+        },
+        "basis": {
+          "type": "string"
+        }
       }
     },
     "transcript": {
       "type": "object",
-      "required": ["engine", "labelled", "word_count"],
+      "required": [
+        "engine",
+        "labelled",
+        "word_count"
+      ],
       "additionalProperties": false,
       "properties": {
-        "engine": {"type": "string"},
-        "engine_version": {"type": "string"},
-        "labelled": {"type": "boolean"},
-        "word_count": {"type": "integer", "minimum": 1},
-        "corrections": {"type": "integer", "minimum": 0},
-        "review_state": {"type": "string", "enum": ["raw", "corrected", "fact-checked"]}
+        "engine": {
+          "type": "string"
+        },
+        "engine_version": {
+          "type": "string"
+        },
+        "labelled": {
+          "type": "boolean"
+        },
+        "word_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "corrections": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_state": {
+          "type": "string",
+          "enum": [
+            "raw",
+            "corrected",
+            "fact-checked"
+          ]
+        }
       }
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "recording",
+        "documents"
+      ],
+      "description": "'documents' for a folder of transcripts/notes with no audio of its own (a papers collection). Defaults to 'recording'."
     }
   }
 }

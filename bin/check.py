@@ -93,6 +93,18 @@ def check_recording(d):
         fail(rec, f"metadata id {meta['id']!r} does not equal the folder name")
 
     # text files exist, transcripts are not empty, no audio anywhere
+    kind = meta.get("kind", "recording")
+    if kind == "documents":
+        if meta.get("sides"):
+            fail(rec, "kind=documents but sides[] is populated - audio belongs to a recording")
+        mds = [p.name for p in d.glob("*.md") if p.name != "README.md"]
+        if not mds:
+            fail(rec, "kind=documents needs at least one .md file besides README.md")
+        if not any(len((d / m).read_text(encoding="utf-8").split()) >= 50 for m in mds):
+            fail(rec, "kind=documents has no substantive .md file")
+    elif not meta.get("sides"):
+        fail(rec, "kind=recording needs at least one entry in sides[]")
+
     rdme = d / "README.md"
     if not rdme.is_file():
         fail(rec, "no README.md in the recording folder (it carries what metadata cannot)")

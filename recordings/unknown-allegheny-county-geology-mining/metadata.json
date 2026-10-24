@@ -1,0 +1,70 @@
+{
+  "id": "unknown-allegheny-county-geology-mining",
+  "title": "Allegheny County — the geology and coal-mining history of the South Hills",
+  "subtitle": "Bethel Presbyterian Church, Historical Room — a two-sided talk, date unknown",
+  "date": "unknown",
+  "date_source": "Searched and found no date: neither side states one, neither filename carries one, and neither source JSON does (both read date_recorded: 'UNKNOWN', with date_recorded_basis noting that the content places the talk after 1970 and probably after 1990). The archive README's row for the geology lecture also records UNKNOWN. What the tape does support is a rough bound, not a date: the mines are long closed, he says 'when I worked in 1933 before World War II', and he mentions a Consol research laboratory at Library. That is the reasoning recorded in the notes; it is not a date and is not written as one.",
+  "provenance": {
+    "collection": "Bethel Presbyterian Church — Historical Room oral histories",
+    "digitised_by": "John Decker",
+    "digitised_on": "2026-10-18",
+    "capture_notes": "Two sides of one meeting, each a separate ALAC 48 kHz stereo 16-bit capture, measured here. Side A: 1,284.778667 s, 51,772,077 bytes, mean -21.3 dBFS, peak -1.2 dBFS; its last 84.8 s from 1,200 s measures RMS -83.0 dBFS, peak -49.6 dBFS, i.e. no speech, which is why the ASR run stopped at 1,200 s. Side B: 1,859.157333 s, 82,684,034 bytes, mean -21.7 dBFS, peak -1.9 dBFS; it was received as 'B side.m4a' and renamed to the archive stem with its samples untouched. 'Source original/' holds a byte-identical copy of the A side (same sha256, verified here). Derivative listening copies in the source folder - both sides at 192 kbps stereo, plus a mono 64 kbps portable copy of the A side - are not masters and are listed in the README."
+  },
+  "speakers": [
+    {
+      "label": "LECTURER",
+      "name": "unidentified lecturer",
+      "role": "subject",
+      "note": "One voice carries both sides: an older man, a former miner ('all the ones that were there when I worked in 1933, and here before World War II') and an assured local geologist, working through maps, photographs and slides. The tape never states his name, and no source document supplies it."
+    },
+    {
+      "label": "AUDIENCE",
+      "name": "unidentified audience members",
+      "role": "other",
+      "note": "Two questions on Side B (17:04, 'What does the deep blue represent?'; 20:42, 'You mean the gas that's trapped on top of the arch?') and the room's laughter and applause. The room also speaks: 'this lady has already told you more of the history than I knew about it' (Side A, 15:44), and on Side B 'Grace' is asked whether she can see (10:52) and 'Jim' is asked to hold the fossil to the light. Other asides - 'Don', the projector exchange - do not separate cleanly in the ASR, so nothing further is labelled rather than guessed."
+    }
+  ],
+  "sides": [
+    {
+      "id": "A",
+      "transcript": "transcript-a.md",
+      "srt": "transcript-a.srt",
+      "notes": "notes-a.md",
+      "duration_s": 1284.778667,
+      "master": {
+        "filename": "Allegheny County Geological and Mining lecture.m4a",
+        "sha256": "61b1a7aa8fe2b918dcdb5dab72cb9c16b694a0a10464c7045c3139406f2c5bf7",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 51772077,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Allegheny County Geological and Mining lecture/Allegheny County Geological and Mining lecture.m4a"
+      }
+    },
+    {
+      "id": "B",
+      "transcript": "transcript-b.md",
+      "srt": "transcript-b.srt",
+      "notes": "notes-b.md",
+      "duration_s": 1859.157333,
+      "master": {
+        "filename": "Allegheny County Geological and Mining lecture - B side.m4a",
+        "sha256": "081ac80b90c332ff74087053d040faa43ce89e72fe93cd338249e37a7e8d94d8",
+        "format": "ALAC 48 kHz stereo 16-bit",
+        "size_bytes": 82684034,
+        "location": "Bethel Presbyterian Church - Historical Room Oral History (2026-10-18)/Allegheny County Geological and Mining lecture/Allegheny County Geological and Mining lecture - B side.m4a"
+      }
+    }
+  ],
+  "rights": {
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, as part of the Historical Room collection. Transcripts are released CC0 1.0.",
+    "basis": "The collection-level release recorded in this repository's docs/RIGHTS.md. No per-item release document is present in the source folder, and the speaker is unidentified, so no separate speaker release exists either."
+  },
+  "transcript": {
+    "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",
+    "engine_version": "faster-whisper 1.2.1 / ctranslate2 4.8.3",
+    "labelled": true,
+    "word_count": 6661,
+    "corrections": 104,
+    "review_state": "corrected"
+  }
+}
