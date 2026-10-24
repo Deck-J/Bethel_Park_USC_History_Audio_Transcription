@@ -84,6 +84,16 @@ KNOWN_MULTI = {
     "Old Washington Road": "Roads and streets",
 }
 
+# Spellings that are the same place. The Patterson typescript prints a closed *e* that reads as *o*
+# (its own Appendix A documents the habit), so "Bothol" is Bethel. Variants are listed in the document
+# under "Spelling variants collapsed" with their counts, so the merge is visible rather than silent.
+VARIANTS = {
+    "Bothol": "Bethel",
+    "Bothol Church": "Bethel Church",
+    "Bothol Church Road": "Bethel Church Road",
+    "Bethel. Church": "Bethel Church",
+}
+
 LEAD = re.compile(r"^(?:The|A|An|In|At|On|To|From|Near|By|Of|And|But|So|Then|There|Here|Back|Up|Down|"
                   r"Over|Along|Around|Across|Toward|Towards|Past|Between|Into|Through|Off|Out)\s+")
 # no "of"/"the" connectors: "Hugh Lee of Cross Creek" must yield "Cross Creek", not the whole phrase
@@ -142,6 +152,14 @@ def main():
             mentions[phrase].append((folder.name, path.name, line_no))
             sections.setdefault(phrase, sec)
 
+    # collapse spelling variants into their canonical place, remembering what was merged
+    collapsed = {}
+    for variant, canonical in VARIANTS.items():
+        if variant in mentions:
+            collapsed[variant] = (canonical, len(mentions[variant]))
+            mentions[canonical].extend(mentions.pop(variant))
+            sections.setdefault(canonical, sections.get(variant, "Settlements and townships"))
+
     rows = {name: hits for name, hits in mentions.items() if len(hits) >= 2}
     by_section = defaultdict(list)
     for name, hits in rows.items():
@@ -180,6 +198,27 @@ def main():
         for name, hits in by_section[sec]:
             lines.append(f"| **{name}** | {len(hits)} | {len({h[0] for h in hits})} |")
         lines.append("")
+
+    if collapsed:
+        lines += [
+            "## Spelling variants collapsed",
+            "",
+            "The transcripts keep the speaker's and the typist's own spellings, so one place can appear",
+            "under two forms. These are merged above, and listed here so the merge is visible:",
+            "",
+            "| as printed in the source | indexed as | mentions merged | why |",
+            "|---|---|---|---|",
+        ]
+        for variant, (canonical, n) in sorted(collapsed.items()):
+            lines.append(f"| {variant} | **{canonical}** | {n} | the Patterson typescript prints a closed "
+                         f"*e* that reads as *o*; its Appendix A records the habit and the restoration |")
+        lines += [
+            "",
+            "This is a spelling correction of a *machine's* fault, not of a speaker's: the tape says Bethel,",
+            "the typewriter printed Bothol. See `recordings/1979-04-20-jd-patterson-documents/` →",
+            "`appendix-a-editorial-notes.md`.",
+            "",
+        ]
 
     lines += ["## Where each place appears", ""]
     for sec in order:

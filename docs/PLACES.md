@@ -5,7 +5,7 @@ churches, mills and the sites around Bethel Park and Upper St. Clair. Generated 
 `bin/gen_places.py` over the same text the names index reads, so the two cannot disagree about
 what a transcript says.
 
-**153 places, 1055 mentions**, each linked to the line where it appears. Grouped by
+**151 places, 1055 mentions**, each linked to the line where it appears. Grouped by
 kind: settlements, roads, waterways, then buildings and sites.
 
 **What this is not.** Not a gazetteer and not a map. A place is indexed when it ends in a place
@@ -77,8 +77,7 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 | place | mentions | recordings |
 |---|---|---|
 | **Baptist Road** | 4 | 3 |
-| **Bethel Church Road** | 8 | 3 |
-| **Bothol Church Road** | 4 | 1 |
+| **Bethel Church Road** | 12 | 3 |
 | **Boyer Road** | 5 | 1 |
 | **Brookside Boulevard** | 3 | 2 |
 | **Brownsville Road** | 6 | 1 |
@@ -142,11 +141,10 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 | **Bethany Church** | 2 | 2 |
 | **Bethel Academy** | 14 | 3 |
 | **Bethel Cemetery** | 2 | 1 |
-| **Bethel Church** | 27 | 8 |
+| **Bethel Church** | 29 | 8 |
 | **Bethel High School** | 4 | 3 |
 | **Bethel Presbyterian Church** | 7 | 5 |
 | **Beverly Heights Church** | 3 | 2 |
-| **Bothol Church** | 2 | 1 |
 | **California State College** | 4 | 1 |
 | **Canonsburg Academy** | 2 | 2 |
 | **Chartiers Church** | 2 | 1 |
@@ -188,6 +186,20 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 | **Was Mine** | 2 | 1 |
 | **Washington College** | 5 | 3 |
 | **Westminster Church** | 2 | 1 |
+
+## Spelling variants collapsed
+
+The transcripts keep the speaker's and the typist's own spellings, so one place can appear
+under two forms. These are merged above, and listed here so the merge is visible:
+
+| as printed in the source | indexed as | mentions merged | why |
+|---|---|---|---|
+| Bothol Church | **Bethel Church** | 2 | the Patterson typescript prints a closed *e* that reads as *o*; its Appendix A records the habit and the restoration |
+| Bothol Church Road | **Bethel Church Road** | 4 | the Patterson typescript prints a closed *e* that reads as *o*; its Appendix A records the habit and the restoration |
+
+This is a spelling correction of a *machine's* fault, not of a speaker's: the tape says Bethel,
+the typewriter printed Bothol. See `recordings/1979-04-20-jd-patterson-documents/` →
+`appendix-a-editorial-notes.md`.
 
 ## Where each place appears
 
@@ -430,12 +442,9 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 - [unknown-ann-connor-sides-a-b](../recordings/unknown-ann-connor-sides-a-b/) — [transcript-b.md L113](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/unknown-ann-connor-sides-a-b/transcript-b.md#L113)
 
 ### Bethel Church Road
-- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L1090](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1090), [transcript-booklet-print-edition.md L1390](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1390), [transcript-booklet-print-edition.md L1446](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1446); [transcript-booklet.md L1336](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1336), [transcript-booklet.md L1654](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1654), [transcript-booklet.md L1765](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1765)
+- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L744](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L744), [transcript-booklet-print-edition.md L750](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L750), [transcript-booklet-print-edition.md L1090](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1090), [transcript-booklet-print-edition.md L1390](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1390) +1 more; [transcript-booklet.md L814](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L814), [transcript-booklet.md L820](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L820), [transcript-booklet.md L1336](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1336), [transcript-booklet.md L1654](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1654) +1 more
 - [1979-04-20-jd-patterson-side-a](../recordings/1979-04-20-jd-patterson-side-a/) — [transcript-a.md L399](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-side-a/transcript-a.md#L399)
 - [1979-04-20-jd-patterson-side-b](../recordings/1979-04-20-jd-patterson-side-b/) — [transcript-b.md L175](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-side-b/transcript-b.md#L175)
-
-### Bothol Church Road
-- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L744](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L744), [transcript-booklet-print-edition.md L750](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L750); [transcript-booklet.md L814](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L814), [transcript-booklet.md L820](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L820)
 
 ### Boyer Road
 - [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L40](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L40), [transcript-booklet-print-edition.md L1446](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1446); [transcript-booklet.md L58](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L58), [transcript-booklet.md L1762](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1762)
@@ -636,7 +645,7 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 - [1971-10-17-george-marshall-class](../recordings/1971-10-17-george-marshall-class/) — [transcript-a.md L17](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-17-george-marshall-class/transcript-a.md#L17), [transcript-a.md L47](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-17-george-marshall-class/transcript-a.md#L47), [transcript-a.md L51](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-17-george-marshall-class/transcript-a.md#L51), [transcript-a.md L167](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-17-george-marshall-class/transcript-a.md#L167) +1 more
 - [1971-10-31-ad-white-cross-creek-dinsmore-family](../recordings/1971-10-31-ad-white-cross-creek-dinsmore-family/) — [transcript-a.md L17](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-31-ad-white-cross-creek-dinsmore-family/transcript-a.md#L17), [transcript-a.md L19](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-31-ad-white-cross-creek-dinsmore-family/transcript-a.md#L19), [transcript-a.md L31](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-31-ad-white-cross-creek-dinsmore-family/transcript-a.md#L31), [transcript-a.md L43](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1971-10-31-ad-white-cross-creek-dinsmore-family/transcript-a.md#L43) +3 more
 - [1977-11-06-ann-connor-bethel-needlepoint](../recordings/1977-11-06-ann-connor-bethel-needlepoint/) — [transcript-a.md L51](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1977-11-06-ann-connor-bethel-needlepoint/transcript-a.md#L51)
-- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L724](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L724), [transcript-booklet-print-edition.md L1414](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1414); [transcript-booklet.md L794](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L794)
+- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L724](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L724), [transcript-booklet-print-edition.md L754](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L754), [transcript-booklet-print-edition.md L1414](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1414); [transcript-booklet.md L794](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L794), [transcript-booklet.md L824](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L824)
 - [1983-09-13-edna-croco](../recordings/1983-09-13-edna-croco/) — [transcript-a.md L145](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1983-09-13-edna-croco/transcript-a.md#L145), [transcript-a.md L147](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1983-09-13-edna-croco/transcript-a.md#L147), [transcript-a.md L191](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1983-09-13-edna-croco/transcript-a.md#L191), [transcript-a.md L195](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1983-09-13-edna-croco/transcript-a.md#L195)
 - [unknown-ann-connor-sides-a-b](../recordings/unknown-ann-connor-sides-a-b/) — [transcript-b.md L115](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/unknown-ann-connor-sides-a-b/transcript-b.md#L115), [transcript-b.md L203](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/unknown-ann-connor-sides-a-b/transcript-b.md#L203)
 - [unknown-gertrude-tanner](../recordings/unknown-gertrude-tanner/) — [transcript-a.md L27](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/unknown-gertrude-tanner/transcript-a.md#L27), [transcript-a.md L29](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/unknown-gertrude-tanner/transcript-a.md#L29)
@@ -657,9 +666,6 @@ in [`NOTES-ON-SOURCES.md`](NOTES-ON-SOURCES.md).
 ### Beverly Heights Church
 - [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L1046](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1046); [transcript-booklet.md L1290](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1290)
 - [1979-04-20-jd-patterson-side-a](../recordings/1979-04-20-jd-patterson-side-a/) — [transcript-a.md L317](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-side-a/transcript-a.md#L317)
-
-### Bothol Church
-- [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L754](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L754); [transcript-booklet.md L824](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L824)
 
 ### California State College
 - [1979-04-20-jd-patterson-documents](../recordings/1979-04-20-jd-patterson-documents/) — [transcript-booklet-print-edition.md L138](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L138), [transcript-booklet-print-edition.md L1450](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet-print-edition.md#L1450); [transcript-booklet.md L166](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L166), [transcript-booklet.md L1780](https://github.com/Deck-J/Bethel_Park_USC_History_Audio_Transcription/blob/main/recordings/1979-04-20-jd-patterson-documents/transcript-booklet.md#L1780)
