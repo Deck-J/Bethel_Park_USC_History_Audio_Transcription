@@ -1,9 +1,9 @@
 # J.D. Patterson — the Fife family and the ground it stood on (side B, 20 April 1979)
 
-**Side B of a two-sided interview.** Side A is filed separately as `unknown-jd-patterson-side-a`; the
+**Side B of a two-sided interview.** Side A is filed separately as `1979-04-20-jd-patterson-side-a`; the
 two are one conversation on one cassette, and this side opens mid-question — "What was his first name?
 Was it Samuel?" — with no break in the talk. The 64-page typescript of the same interview is filed as
-`unknown-jd-patterson-documents`.
+`1979-04-20-jd-patterson-documents`.
 
 Where Side A is Patterson's teaching career and the Bob Stilley killing, Side B is **the Fife family and
 the land it farmed**: who married whom, which farmhouse was built when, the streetcar stops on the
@@ -28,7 +28,7 @@ to A.J. Patterson — J.D. Patterson" (Side A, 0:09), and by its content it is t
 mid-question and continues the same subject without an introduction.
 
 **No year is spoken on either side.** The year comes from the **typescript of the same interview**
-(`unknown-jd-patterson-documents`): "Oral interview with Mr. J. D. Patterson, April 20, 1979 / Interviewed
+(`1979-04-20-jd-patterson-documents`): "Oral interview with Mr. J. D. Patterson, April 20, 1979 / Interviewed
 by June Ellington. Typist, Mrs. T. R. Stump", repeated in the running head on later pages.
 
 The folder id keeps the `unknown-` prefix this item was queued under; if the id should carry the
@@ -157,13 +157,17 @@ meaning is not.
   St. Clair Historical Society and will only be used by non-profit"
 - **31:04** "Thank you."
 
-## 7. Rights — a flag, not a clearance
+## 7. Rights — published on the holder's release, with the claim recorded
 
-That closing announcement matters. The collection sits in **Bethel Presbyterian's** Historical Room, but
-the recording states **Upper St. Clair Historical Society's** ownership and restricts it to non-profit use.
-That is an ownership claim by another institution, not a release by this one. `metadata.json` therefore
-records `rights.status: "unknown"` with the statement quoted verbatim, and the item should not be treated
-as cleared until the Historical Room resolves it (see `docs/RIGHTS.md`, rule 1).
+That closing announcement matters and is not hidden. The collection sits in **Bethel Presbyterian's**
+Historical Room, but the recording states **Upper St. Clair Historical Society's** ownership and
+restricts it to non-profit use — an ownership claim by another institution, not a release by this one.
+
+The item is published as **public domain** on the release of the holder of the recordings, John Decker,
+who digitised the collection and released it for this repository. That release is the basis;
+`metadata.json` records the Society's announcement in `rights.basis` alongside it, so a reader sees both
+statements rather than only the convenient one. If the Society, or any participant or their family,
+wants this item changed or removed, that is honoured without argument (see `docs/RIGHTS.md`).
 
 ## 8. Files here
 
@@ -187,8 +191,8 @@ The master is **not** here: it is on the archive NAS, identified above by sha256
 
 ## 10. Related material in the collection
 
-- **`unknown-jd-patterson-side-a`** — the first half, and the side that carries the date. Read it first.
-- **`unknown-jd-patterson-documents`** — the 64-page typescript: the same interview with the year and the
+- **`1979-04-20-jd-patterson-side-a`** — the first half, and the side that carries the date. Read it first.
+- **`1979-04-20-jd-patterson-documents`** — the 64-page typescript: the same interview with the year and the
   names in print, and much more of it than the two tapes hold.
 - **1971-07-15 A.D. White** — the Fife, Gilfillan, Espy and Stilley names recur there, from the Bethel side
   of the same hills.

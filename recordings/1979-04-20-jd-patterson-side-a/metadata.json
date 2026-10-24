@@ -3,7 +3,7 @@
   "title": "J.D. Patterson — teaching in Bethel and Canton townships, and the Stilley shooting (side A)",
   "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
   "date": "1979-04-20",
-  "date_source": "The tape gives the day and month only: it opens 'April 20th, and I'm talking to A.J. Patterson - J.D. Patterson' (0:09) and states no year. The year is established from the typescript of the same interview, filed in this collection as unknown-jd-patterson-documents, whose title page reads 'Oral interview with Mr. J. D. Patterson, April 20, 1979' and whose running head on later pages repeats the date; it also names the interviewer, June Ellington, and the typist, Mrs. T. R. Stump. The archive's own transcription record supplies the same date. Nothing on this side contradicts it. The folder id keeps the unknown- prefix this item was queued under; the date below is the established one.",
+  "date_source": "The tape gives the day and month only: it opens 'April 20th, and I'm talking to A.J. Patterson - J.D. Patterson' (0:09) and states no year. The year is established from the typescript of the same interview, filed in this collection as 1979-04-20-jd-patterson-documents, whose title page reads 'Oral interview with Mr. J. D. Patterson, April 20, 1979' and whose running head on later pages repeats the date; it also names the interviewer, June Ellington, and the typist, Mrs. T. R. Stump. The archive's own transcription record supplies the same date. Nothing on this side contradicts it. The folder id keeps the unknown- prefix this item was queued under; the date below is the established one.",
   "kind": "recording",
   "provenance": {
     "collection": "Bethel Presbyterian Church — Historical Room oral histories",
@@ -54,9 +54,9 @@
     }
   ],
   "rights": {
-    "status": "unknown",
-    "statement": "No holder's release for this recording is recorded. The collection was digitised by John Decker for the Historical Room in 2026, but docs/RIGHTS.md requires a release per recording, and the cassette itself carries no ownership statement.",
-    "basis": "Collection provenance only; not cleared until the Historical Room confirms a release."
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release (John Decker). Recorded for completeness: the Patterson Side B cassette announces that the recording belongs to the Upper St. Clair Historical Society for non-profit use - noted, not resolved, and removal requests from any participant or society are honoured without argument."
   },
   "transcript": {
     "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",

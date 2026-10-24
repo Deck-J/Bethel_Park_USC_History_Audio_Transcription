@@ -131,11 +131,15 @@ from that gap rather than assume the tapes are complete.
 
 ## 6. Rights
 
-No release is recorded for the typescript or for the interview it records. `metadata.json` carries
-`rights.status: "unknown"` for that reason: the collection was digitised for the Historical Room by John
-Decker in 2026, but `docs/RIGHTS.md` requires a release per item, and none is on file. The companion tape
-side (`unknown-jd-patterson-side-b`) adds a further wrinkle — it announces that the recording is the
-property of the **Upper St. Clair Historical Society** and for non-profit use only.
+Published as **public domain** on the release of the holder of the collection, John Decker, who
+digitised it for the Historical Room in 2026 and released it for this repository; the typescript is
+released on the same basis as the tapes it accompanies.
+
+One wrinkle is recorded rather than hidden: the companion tape side
+(`1979-04-20-jd-patterson-side-b`) announces that the recording is the property of the **Upper St. Clair
+Historical Society** and is for non-profit use only. That announcement is quoted in this item's
+`rights.basis`, and a request from the Society or from any participant's family to change or remove the
+material is honoured without argument.
 
 ## 7. Files here
 
@@ -150,7 +154,7 @@ property of the **Upper St. Clair Historical Society** and for non-profit use on
 | `README.md` | This file |
 
 There is no audio here and none is missing: this item is paper. The sound recordings of the same interview
-are `unknown-jd-patterson-side-a` and `unknown-jd-patterson-side-b`.
+are `1979-04-20-jd-patterson-side-a` and `1979-04-20-jd-patterson-side-b`.
 
 ## 8. Citing it
 
@@ -162,7 +166,7 @@ Cite the **printed page number** (PDF page − 2) as well as the heading, since 
 
 ## 9. Related material in the collection
 
-- **`unknown-jd-patterson-side-a`** and **`unknown-jd-patterson-side-b`** — the two cassette sides of this
+- **`1979-04-20-jd-patterson-side-a`** and **`1979-04-20-jd-patterson-side-b`** — the two cassette sides of this
   interview, transcribed from the audio. Both take their year from this typescript.
 - **1971-07-15 A.D. White** — a different interview in the same room; the Stilley, Fife and Gilfillan
   families appear in both collections.

@@ -36,10 +36,11 @@ edited up — the difference is unexplained, and the typescript also refers to a
 not among the 64 scanned pages. The scan is probably incomplete.
 
 **One tape side announces ownership.** The Patterson Side B cassette states that the recording belongs
-to the Upper St. Clair Historical Society and is for non-profit use. That is why the three Patterson
-items and *Ann Connor — Sides A and B* carry `rights.status: "unknown"` rather than `public-domain`:
-the collection-level release may cover them, but nothing on file says so, and a repository should not
-assert more than its holder can show.
+to the Upper St. Clair Historical Society and is for non-profit use. The three Patterson items and
+*Ann Connor — Sides A and B* are nonetheless published as **public domain** on the rights holder's
+release (John Decker), with that announcement recorded in each one's `rights.basis` rather than
+silenced. If the Society, or any participant or their family, wants an item changed or removed, that is
+honoured without argument — see `RIGHTS.md`.
 
 **Dinsmore, 31 October 1971 — a second file of the same performance.** The source folder holds
 `second recording.m4a` (1,858.304 s, a different hash from the master). Measured against the master it

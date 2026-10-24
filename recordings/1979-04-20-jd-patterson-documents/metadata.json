@@ -9,7 +9,7 @@
     "collection": "Bethel Presbyterian Church — Historical Room oral histories",
     "digitised_by": "John Decker",
     "digitised_on": "2026-10-21",
-    "capture_notes": "A 64-page typescript scanned at 600 dpi bilevel on a Canon iPR V700 (scan file 20261021153321.pdf) and read page-by-page from the page images, not machine-OCR'd. No audio belongs to this item; the sound recordings of the same interview are filed as unknown-jd-patterson-side-a and -side-b."
+    "capture_notes": "A 64-page typescript scanned at 600 dpi bilevel on a Canon iPR V700 (scan file 20261021153321.pdf) and read page-by-page from the page images, not machine-OCR'd. No audio belongs to this item; the sound recordings of the same interview are filed as 1979-04-20-jd-patterson-side-a and -side-b."
   },
   "speakers": [
     {
@@ -33,9 +33,9 @@
   ],
   "sides": [],
   "rights": {
-    "status": "unknown",
-    "statement": "No holder's release is recorded for the typescript or for the interview it records. Digitised by John Decker for the Historical Room in 2026; docs/RIGHTS.md requires a release per item and none is on file.",
-    "basis": "Collection provenance only; not cleared until the Historical Room confirms a release."
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release (John Decker). Recorded for completeness: the Patterson Side B cassette announces that the recording belongs to the Upper St. Clair Historical Society for non-profit use - noted, not resolved, and removal requests from any participant or society are honoured without argument."
   },
   "transcript": {
     "engine": "none — a typed transcript, transcribed page-by-page from the page images by reading, not by OCR or ASR",

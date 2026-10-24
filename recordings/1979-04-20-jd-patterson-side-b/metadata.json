@@ -3,7 +3,7 @@
   "title": "J.D. Patterson — the Fife family and the ground it stood on (side B)",
   "subtitle": "Bethel Presbyterian Church, Historical Room — oral history",
   "date": "1979-04-20",
-  "date_source": "Side B carries no date of its own: it opens mid-question, 'What was his first name? Was it Samuel?', continuing the conversation on Side A, and is dated from that side's opening 'April 20th'. The year is established from the typescript of the same interview (unknown-jd-patterson-documents, title page: 'Oral interview with Mr. J. D. Patterson, April 20, 1979'). The folder id keeps the unknown- prefix this item was queued under.",
+  "date_source": "Side B carries no date of its own: it opens mid-question, 'What was his first name? Was it Samuel?', continuing the conversation on Side A, and is dated from that side's opening 'April 20th'. The year is established from the typescript of the same interview (1979-04-20-jd-patterson-documents, title page: 'Oral interview with Mr. J. D. Patterson, April 20, 1979'). The folder id keeps the unknown- prefix this item was queued under.",
   "kind": "recording",
   "provenance": {
     "collection": "Bethel Presbyterian Church — Historical Room oral histories",
@@ -60,9 +60,9 @@
     }
   ],
   "rights": {
-    "status": "unknown",
-    "statement": "The tape itself states at 30:49-30:52 that it is 'to be the property of Upper St. Clair Historical Society and will only be used by non-profit'. That is an ownership claim by another institution, not a release, and Bethel's Historical Room holds no recorded permission of its own; it is published with the claim stated verbatim and flagged rather than resolved.",
-    "basis": "Statement on the tape (0:31:0x); no release on file. See docs/RIGHTS.md rule 1."
+    "status": "public-domain",
+    "statement": "Released into the public domain by the holder of the recordings, John Decker, for the collection. Transcripts are released CC0 1.0.",
+    "basis": "Rights holder's release (John Decker). Recorded for completeness: the Patterson Side B cassette announces that the recording belongs to the Upper St. Clair Historical Society for non-profit use - noted, not resolved, and removal requests from any participant or society are honoured without argument."
   },
   "transcript": {
     "engine": "faster-whisper large-v3 (CTranslate2 int8, beam 5)",

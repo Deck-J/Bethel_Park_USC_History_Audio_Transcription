@@ -1,8 +1,8 @@
 # J.D. Patterson — teaching in Bethel and Canton townships, and the Stilley shooting (side A, 20 April 1979)
 
-**Side A of a two-sided interview.** Side B is filed separately as `unknown-jd-patterson-side-b`; the
+**Side A of a two-sided interview.** Side B is filed separately as `1979-04-20-jd-patterson-side-b`; the
 two are one conversation on one cassette and are read as one document. The typed transcript of the same
-interview — 64 pages, far fuller than the tapes — is filed as `unknown-jd-patterson-documents`.
+interview — 64 pages, far fuller than the tapes — is filed as `1979-04-20-jd-patterson-documents`.
 
 | | |
 |---|---|
@@ -26,7 +26,7 @@ sentence and corrects herself — which is why the name is evidenced as well as 
 > telling about his teaching." — JUNE, 0:09
 
 **No year is spoken anywhere on either side.** The year comes from the **typescript of the same
-interview** (`unknown-jd-patterson-documents`), whose first page reads "Oral interview with Mr. J. D.
+interview** (`1979-04-20-jd-patterson-documents`), whose first page reads "Oral interview with Mr. J. D.
 Patterson, April 20, 1979 / Interviewed by June Ellington. Typist, Mrs. T. R. Stump", and whose later
 pages carry the same date in the running head. The archive's transcription record supplies 20 April 1979
 independently and names the interviewer.
@@ -195,11 +195,11 @@ Cite the timestamp for anything quoted.
 
 ## 9. Related material in the collection
 
-- **`unknown-jd-patterson-side-b`** — the other half of this interview. It opens mid-question ("What was
+- **`1979-04-20-jd-patterson-side-b`** — the other half of this interview. It opens mid-question ("What was
   his first name? Was it Samuel?"), so there is no break: read the two together, and use
-  `unknown-jd-patterson-side-b/transcript-both-sides.srt` for one continuous clock (Side B's cues offset
+  `1979-04-20-jd-patterson-side-b/transcript-both-sides.srt` for one continuous clock (Side B's cues offset
   by 2,156.288 s, this side's duration).
-- **`unknown-jd-patterson-documents`** — the 64-page typescript of the same interview, which carries the
+- **`1979-04-20-jd-patterson-documents`** — the 64-page typescript of the same interview, which carries the
   year, the interviewer's name and the typist's name, and covers ground these 67 minutes do not.
 - **1971-07-15 A.D. White** — the same Historical Room, a different generation of the same local history;
   the Stilley and Fife names recur across both.
